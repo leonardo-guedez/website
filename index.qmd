@@ -1,0 +1,25 @@
+---
+title: "Leo Guédez"
+image: images/eleguedez.jpg
+about:
+  template: jolla
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/lguedez
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/eleguedez
+    # - icon: github
+    #   text: Github
+    #   href: https://github.com/leonardo-guedez
+    - icon: envelope
+      text: Contact me
+      href: mailto:guedezle@msu.edu
+---
+
+I am a Sr. Data Scientist at Microsoft. I have extensive background working with varied data sets and using advanced analytics to enable business stakeholders to make informed decisions.
+
+I recently expanded my skill set to include topics like Quarto, tidymodels, working in cross-language R/Python environment using Reticulate, and data visualizations using animation and interactivity. I am passionate about Diversity, Equity and Inclusion and lead actionable initiatives and conversations to drive inclusiveness within our organization.

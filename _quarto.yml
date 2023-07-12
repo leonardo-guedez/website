@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  title: "Leo Guédez"
+  
+  favicon: "images/eleguedez.jpg"
+
+  navbar:
+    
+    left:
+      # - href: index.qmd
+      #   text: Home
+      - href: projects.qmd
+        text: Projects
+      # - href: talks.qmd
+      #   text: Talks
+      - href: resume.qmd
+        text: Resume
+      # - href: waresume.qmd
+      #   text: Wednesday Addam's resume
+        
+    right:
+      - icon: linkedin
+        href: https://linkedin.com/in/lguedez
+        aria-label: Quarto LinkedIn
+      - icon: twitter
+        href: https://twitter.com/eleguedez
+        aria-label: Quarto Twitter
+      # - icon: github
+      #   href: https://github.com/leonardo-guedez
+      #   aria-label: Quarto Github
+
+  search: 
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme_light_custom.scss]
+      dark: [cosmo, theme_dark_custom.scss]
+    css: styles.css
+    citations-hover: true
+    code-link: true
+    code-fold: show
+    code-tools: false
+    code-block-border-left: "#004E4F"
+
+editor: visual
+

@@ -1,4 +1,4 @@
-## Global Biodiversity Shiny dashboard for Poland
+## Global Biodiversity Shiny dashboard for Poland-PL
 
 ::: columns
 ::: {.column width="55%"}

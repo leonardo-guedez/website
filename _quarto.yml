@@ -4,7 +4,7 @@ project:
 website:
   title: "Leo Guédez"
   
-  favicon: "images/eleguedez.jpg"
+  favicon: "images/github-logo.png"
 
   navbar:
     

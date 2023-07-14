@@ -22,7 +22,7 @@ about:
 
 ::: {.column-body}
 
-<font size= "5"> Linguist, Ph.D. student | [Michigan State University](https://sls.msu.edu/) </font>
+<font size= "5"> **Linguist, Ph.D. student | [Michigan State University](https://sls.msu.edu/)** </font>
 
 I am an applied computational linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning.  
 

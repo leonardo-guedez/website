@@ -20,9 +20,11 @@ about:
       href: mailto:guedezle@msu.edu
 ---
 
-## Linguist, Ph.D. student | [Michigan State University](https://sls.msu.edu/)
+::: {.column-body}
 
-I am an applied computational linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning. 
+<font size= "5"> Linguist, Ph.D. student | [Michigan State University](https://sls.msu.edu/) </font>
+
+I am an applied computational linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning.  
 
 My work involves using techniques from natural language processing and multivariate statistical modeling to better understand the cognitive and linguistic mechanisms in language production.
 
@@ -53,7 +55,7 @@ B.A. in English Language Teaching | Sep 2008 - May 2013
 Two-year fully funded Fulbright grant for an M.A. in TESL at Northern Arizona University.
 
 
-
+:::
 
 
 

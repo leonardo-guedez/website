@@ -2,7 +2,7 @@
 title: "Leo Guédez"
 image: images/eleguedez.jpg
 about:
-  template: jolla
+  template: trestles
   image-width: 15em
   image-shape: round
   links:
@@ -20,8 +20,58 @@ about:
       href: mailto:guedezle@msu.edu
 ---
 
+## Linguist, Ph.D. student | [Michigan State University](https://sls.msu.edu/)
+
 I am an applied computational linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning. 
 
 My work involves using techniques from natural language processing and multivariate statistical modeling to better understand the cognitive and linguistic mechanisms in language production.
 
 My expertise extends to tools like Quarto, Git, Emacs, and Vim keybindings for effective data management and presentations. I am currently in the revision stage for a computational linguistics single-authored manuscript that will be submitted to a peer-reviewed journal in the field. At the same time, I am co-authoring a second manuscript where we explore the perceptions of conversation partners on interaction training in the context of synchronous video computer-mediated communication (SVCMC).
+
+## Education
+
+**Michigan State University** | East Lansing, MI
+
+Ph.D. in Second Language Studies | June 2020 - Present
+
+**Northern Arizona University** | Flagstaff, AZ
+
+M.A. in Teaching English as a Second Language | Sep 2018 - May 2020
+
+**Universidad Simón Bolívar** | Caracas, Venezuela
+
+M.A. in Applied Linguistics | Sep 2014 - May 2017
+
+**Universidad Pedagógica Experimental Libertador** | Maracay, Venezuela
+
+B.A. in English Language Teaching | Sep 2008 - May 2013
+
+## Awards
+
+**Fulbright Foreign Student Program** | Flagstaff, AZ
+
+Two-year fully funded Fulbright grant for an M.A. in TESL at Northern Arizona University.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

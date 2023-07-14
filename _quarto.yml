@@ -38,8 +38,8 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, theme_light_custom.scss]
-      dark: [cosmo, theme_dark_custom.scss]
+      light: [flatly, theme_light_custom.scss]
+      dark: [flatly, theme_dark_custom.scss]
     css: styles.css
     citations-hover: true
     code-link: true
@@ -49,3 +49,8 @@ format:
 
 editor: visual
 
+execute:
+  freeze: auto
+
+resources:
+  - CNAME

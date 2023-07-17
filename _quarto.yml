@@ -21,7 +21,6 @@ website:
       # - href: waresume.qmd
       #   text: Wednesday Addam's resume
 
-
       - icon: linkedin
         href: https://linkedin.com/in/lguedez
         aria-label: Quarto LinkedIn
@@ -31,7 +30,6 @@ website:
       # - icon: github
       #   href: https://github.com/leonardo-guedez
       #   aria-label: Quarto Github
-
 
   search: 
     location: navbar

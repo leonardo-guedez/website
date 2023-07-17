@@ -5,7 +5,8 @@ website:
   title: "Leo Guédez"
   
   favicon: "images/github-mark-white.png"
-
+  open-graph: true
+  
   navbar:
     right:
     # left:
@@ -38,14 +39,20 @@ website:
 
 format:
   html:
+    grid:
+      # sidebar-width: 900px
+      body-width: 1300px
+      margin-width: 300px
+      gutter-width: 1.5rem
     theme:
       light: [flatly, theme_light_custom.scss]
       dark: [flatly, theme_dark_custom.scss]
     css: styles.css
-    citations-hover: true
-    code-link: true
-    code-fold: show
-    code-tools: false
+    page-layout: full
+    # citations-hover: true
+    # code-link: true
+    # code-fold: show
+    # code-tools: false
     code-block-border-left: "#004E4F"
 
 editor: visual

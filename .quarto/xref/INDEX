@@ -16,5 +16,11 @@
   },
   "Resume.qmd": {
     "Resume.html": "ca64408a"
+  },
+  "talks.qmd": {
+    "talks.html": "969b9ca4"
+  },
+  "TODO.qmd": {
+    "TODO.html": "6b62bd3f"
   }
 }

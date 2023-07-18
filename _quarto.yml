@@ -8,6 +8,7 @@ website:
   open-graph: true
   
   navbar:
+    logo: "node-tree-diagram.png"
     right:
     # left:
       # - href: index.qmd

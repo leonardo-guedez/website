@@ -4,3 +4,8 @@
 /.quarto/
 
 .DS_Store
+
+site_libs/
+
+*.html
+

@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "ccf01f64"
+  },
+  "projects.qmd": {
+    "projects.html": "8cc775db"
+  },
+  "github.qmd": {
+    "github.html": "ebda9f08"
+  },
+  "resume.qmd": {
+    "resume.html": "89ca1189"
+  },
+  "Projects.qmd": {
+    "Projects.html": "6d8ac730"
+  },
+  "Resume.qmd": {
+    "Resume.html": "ca64408a"
+  },
+  "talks.qmd": {
+    "talks.html": "969b9ca4"
+  },
+  "TODO.qmd": {
+    "TODO.html": "6b62bd3f"
+  }
+}

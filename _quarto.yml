@@ -1,7 +1,7 @@
 project:
   type: website
 
-website:
+websitez:
   title: "Leo Guédez"
   
   favicon: "images/github-mark-white.png"

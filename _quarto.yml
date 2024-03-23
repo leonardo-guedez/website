@@ -15,12 +15,12 @@ website:
       #   text: Home
       - href: projects.qmd
         text: Projects
-      # - href: talks.qmd
-      #   text: Talks
+        
       - href: resume.qmd
         text: Resume
-      # - href: waresume.qmd
-      #   text: Wednesday Addam's resume
+
+      - href: CV/leo-guedez-CV.pdf
+        text: Resume
 
       - icon: linkedin
         href: https://linkedin.com/in/lguedez

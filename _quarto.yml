@@ -16,11 +16,8 @@ website:
       - href: projects.qmd
         text: Projects
         
-      - href: resume.qmd
-        text: Resume
-
       - href: CV/leo-guedez-CV.pdf
-        text: Resume
+        text: CV 
 
       - icon: linkedin
         href: https://linkedin.com/in/lguedez

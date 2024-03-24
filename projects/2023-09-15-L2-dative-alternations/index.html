@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-11-23">
+<meta name="description" content="a personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps">
 
-<title>Leo Guédez – projects</title>
+<title>Leo Guédez - Shiny Strava Dashboard</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/github-mark-white.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/github-mark-white.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,7 +66,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Leo Guédez - Shiny Strava Dashboard">
+<meta property="og:description" content="a personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps">
+<meta property="og:image" content="strava-logo-white-bg.png">
+<meta property="og:site-name" content="Leo Guédez">
 </head>
 
 <body class="nav-fixed">
@@ -74,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Leo Guédez</span>
     </a>
   </div>
@@ -85,11 +91,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV/leo-guedez-CV.pdf" rel="" target="">
+    <a class="nav-link" href="../../CV/leo-guedez-CV.pdf" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -111,17 +117,62 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Shiny Strava Dashboard</h1>
+                  <div>
+        <div class="description">
+          <p>a personal (and ongoing) side-project to explore my Strava data and learn more about building Shiny apps</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Shiny</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 23, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
-<section id="forthcoming" class="level2">
-<h2 class="anchored" data-anchor-id="forthcoming">Forthcoming</h2>
+
+<p><a href="https://samanthacsik.shinyapps.io/strava_dashboard/" class="btn" target="_blank"> shiny dashboard</a> <a href="https://github.com/samanthacsik/strava-dashboard" class="btn" target="_blank"> source code</a></p>
+<p><br></p>
+<section id="motivation" class="level1">
+<h1>Motivation</h1>
+<p>It doesn’t get much better than playing around with data that mean a lot to you. For me, that’s my Strava data (yes, I do recognize that that might sound a bit silly) – I’m fortunate enough to have near-immediate access to some of the greatest hiking trails around (yes, I also recognize that I’m totally biased), and spending my free time romping around our local mountains has been so important for my mental health. <em>So,</em> when I was ready to do my first real deep-dive into learning how to build Shiny apps and dashboards, I knew these were the data I needed to use.</p>
+<p><br></p>
+<p><img class="img-styling" src="cathedral-peak.jpeg" alt="A woman stands on top of a rocky peak with blue sky and chapparal-covered mountains in the background. Blue sky is visible to the left, and foggy, dark clouds are rolling in from the right." width="70%"></p>
+<div class="gray-italic center-text">
+<p>Cathedral Peak, Santa Barbara, CA</p>
+</div>
+<p><br></p>
+</section>
+<section id="whats-on-the-dashboard" class="level1">
+<h1>What’s on the dashboard?</h1>
+<p>This is very much an ongoing work in-progress, but the first version included a “Gear Garage” for tracking mileage on my hiking boots and bike, an activity heat map of all recorded hikes, bike rides, and walks, visualizations for exploring activity distance and elevation gain, and an interactive table of the raw data.</p>
+<p>There are many more visualizations and features I’d love to add (but have been severely lacking the time to do so). I also still manually retrieve new activities using the Strava API via the <a href="https://github.com/fawda123/rStrava"><code>{rstrava}</code> package</a>, but I hope to automate this in the next version. Stay tuned!</p>
 
 
 </section>

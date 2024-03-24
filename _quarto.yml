@@ -5,15 +5,15 @@ project:
 website:
   open-graph: true
   site-url: https://www.leonardo-guedez.com/
+  title: "Leo Guédez"
+  favicon: "images/github-mark-white.png"
   # cookie-consent: 
   #   type: express 
   #   style: headline
   #   palette: dark
-  favicon: images/chick.png
-  google-analytics: 
-    tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
-    anonymize-ip: true
-  # title: "samantha csik"
+  # google-analytics: 
+    # tracking-id: ""
+    # anonymize-ip: true
   navbar:
     title: false
     right:

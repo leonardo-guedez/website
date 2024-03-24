@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: content
 
 website:
   title: "Leo Guédez"

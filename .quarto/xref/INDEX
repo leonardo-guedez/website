@@ -88,5 +88,14 @@
   },
   "about.qmd": {
     "about.html": "4083b037"
+  },
+  "courses.qmd": {
+    "courses.html": "e7ee5783"
+  },
+  "courses/eds-430-shiny/index.qmd": {
+    "index.html": "1bb3be5c"
+  },
+  "courses/eds-240-data-viz/index.qmd": {
+    "index.html": "1825aa00"
   }
 }

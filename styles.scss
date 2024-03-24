@@ -159,9 +159,19 @@ body {
 /* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
 
 // resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
-.navbar-brand img { 
-  max-height: 60px;
-  width: auto;
+.navbar-brand::after {
+  content: 'Your Name';
+  display: inline-block;
+  margin-left: 10px; /* Or any spacing you need */
+  cursor: pointer;
+}
+
+.navbar-brand {
+  display: block; /* Or inline-block, depending on your layout */
+}
+
+.navbar-brand img {
+  display: none;
 }
 
 // headshot shape

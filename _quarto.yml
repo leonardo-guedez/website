@@ -15,8 +15,8 @@ website:
   navbar:
     # logo: "node-tree-diagram.png"
     right:
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
       # - about.qmd # for later expansion, like in here: https://samanthacsik.github.io/about.html
       - href: projects.qmd
         text: Projects

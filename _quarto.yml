@@ -3,10 +3,14 @@ project:
   output-dir: content
 
 website:
+  open-graph: true
+  site-url: https://www.leonardo-guedez.com/
   title: "Leo Guédez"
   
   favicon: "images/github-mark-white.png"
-  open-graph: true
+  # google-analytics: 
+    # tracking-id: ""
+    # anonymize-ip: true
   
   navbar:
     # logo: "node-tree-diagram.png"

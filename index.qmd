@@ -1,83 +1,59 @@
 ---
-title: "Leo Guédez"
-image: images/eleguedez.jpg
-about:
-  template: trestles
-  # template: jolla
+title: ""
+image: images/sam_cropped.jpg
+toc: false
+about: 
+  template: jolla
   image-shape: round
-  image-width: 15em
+  image-width: 14em
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/lguedez
-    - icon: $ \mathbb{X} $
+      href: https://www.linkedin.com/in/samanthacsik/
+      target: _blank
+    - icon: twitter
       text: Twitter
-      href: https://twitter.com/eleguedez
-    # - icon: github
-    #   text: Github
-    #   href: https://github.com/leonardo-guedez
+      href: https://twitter.com/SamanthaCsik
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/samanthacsik
+      target: _blank
     - icon: envelope
-      text: Contact me
-      href: mailto:guedezle@msu.edu
+      text: Email
+      href: mailto:scsik@ucsb.edu
 ---
 
-## **Linguist, Ph.D. student | [Michigan State University](https://sls.msu.edu/)**
+<!-- ::: {.small-text} -->
+Hi there! I'm Sam (and my last name is pronounced "chick"). Professionally, I love teaching data science skills, learning and implementing inclusive pedagogical approaches, and the communities that supports both of those things. Outside of work, I'm an avid hiker, novice (but passionate) meal-maker, and I really love the color green. Poke around my website to learn more!
+<!-- ::: -->
 
-I am an applied corpus linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning. 
-My work involves using techniques from natural language processing and multivariate statistical modeling to better understand the cognitive and linguistic mechanisms in language production.
+<!-- ### hi there!     -->
 
-My expertise extends to tools like Quarto, Git, Emacs, and Vim mode for effective data management and presentations. I am currently in the revision stage for a computational linguistics single-authored manuscript that will be submitted to a peer-reviewed journal in the field. At the same time, I am co-authoring a second manuscript where we explore the perceptions of conversation partners on interaction training in the context of synchronous video computer-mediated communication (SvCMC).
+<!-- I'm Sam (and my last name is pronounced "chick"). I'm the Data Training Coordinator at the [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) located at UC Santa Barbara, where I'm working to develop and teach data science training curricula for the [Master of Environmental Data Science](https://bren.ucsb.edu/masters-programs/master-environmental-data-science) (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of [R-Ladies Santa Barbara](https://www.meetup.com/rladies-santa-barbara/), a local data science group which works to promote gender diversity in the R community. In my spare time, you'll typically find me hiking with my pup or cooking family dinners with friends. -->
 
----
+<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
 
-::: columns
+<!-- ### education -->
 
-::: column
-### Education
+<!-- <div class="topbr"> -->
+<!-- <p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **MS in Ecology, Evolution & Marine Biology, 2020**</p>   -->
+<!-- <p class="custom-subtitle2">University of California, Santa Barbara</p> -->
 
-**Ph.D. in Second Language Studies** (June 2020 - Present)
+<!-- <p class="custom-subtitle">{{< fa graduation-cap title="A graduation cap" >}} **BS in Marine Biology, 2016**</p>   -->
+<!-- <p class="custom-subtitle2">Northeastern University</p> -->
+<!-- </div> -->
 
-*Michigan State University* | East Lansing, MI
+<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
 
-**M.A. in Teaching English as a Second Language** (2020)
+<!-- ### experience -->
 
-*Northern Arizona University* | Flagstaff, AZ
+<!-- <div class="topbr"> -->
+<!-- <p class="custom-subtitle">{{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} **Data Training Coordinator, 2021-present**</p>    -->
+<!-- <p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p>   -->
 
-**M.A. in Applied Linguistics** (2017)
+<!-- <p class="custom-subtitle">{{< fa chart-bar title="A bar chart" >}} **Data Science Fellow, 2020-2021**</p>     -->
+<!-- <p class="custom-subtitle2">National Center for Ecological Analysis & Synthesis</p> -->
+<!-- </div> -->
 
-*Universidad Simón Bolívar* | Caracas, Venezuela
-
-**B.A. in English Language Teaching** (2013)
-
-*Universidad Pedagógica Experimental Libertador* | Maracay, Venezuela
-:::
-
-:::column
-### Awards
-
-**Fulbright Foreign Student Program** | Flagstaff, AZ
-
-Two-year fully funded Fulbright grant for an M.A. in TESL at Northern Arizona University.
-:::
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- FOR REFERENCE: `r fontawesome::fa("graduation-cap", fill = "#98A08D", a11y = "sem")` # stopped working 5/1/2023? -->

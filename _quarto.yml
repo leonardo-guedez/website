@@ -1,65 +1,79 @@
 project:
   type: website
-  output-dir: content
+  output-dir: docs
 
 website:
   open-graph: true
-  site-url: https://www.leonardo-guedez.com/
-  title: "Leo Guédez"
-  
-  favicon: "images/github-mark-white.png"
-  # google-analytics: 
-    # tracking-id: ""
-    # anonymize-ip: true
-  
+  site-url: https://samanthacsik.github.io/
+  # cookie-consent: 
+  #   type: express 
+  #   style: headline
+  #   palette: dark
+  favicon: images/chick.png
+  google-analytics: 
+    tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
+    anonymize-ip: true
+  # title: "samantha csik"
   navbar:
-    # logo: "node-tree-diagram.png"
+    title: false
+    logo: images/logos/logo-dark.png
+    logo-alt: "The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon."
     right:
-      # - href: index.qmd
-      #   text: Home
-      # - about.qmd # for later expansion, like in here: https://samanthacsik.github.io/about.html
+      - href: index.qmd
+        text: home
+      - about.qmd
+      - href: talks_workshops.qmd
+        text: talks & workshops
+      - href: courses.qmd
+        text: courses
       - href: projects.qmd
-        text: Projects
-        
-      - href: CV/leo-guedez-CV.pdf
-        text: CV 
-
-      - icon: linkedin
-        href: https://linkedin.com/in/lguedez
-        aria-label: Quarto LinkedIn
-      - icon: twitter
-        href: https://twitter.com/eleguedez
-        aria-label: Quarto Twitter
-      # - icon: github
-      #   href: https://github.com/leonardo-guedez
-      #   aria-label: Quarto Github
-
-  search: 
-    location: navbar
-    type: overlay
+        text: projects
+      - posts.qmd
+      # - resources.qmd
+      # - href: CV/SCsik_CV.pdf
+      #   text: cv
+      #   target: _blank
+      - text: get in touch!
+        menu:
+          - icon: twitter
+            text: Twitter
+            href: https://twitter.com/SamanthaCsik
+            target: _blank
+          - icon: linkedin
+            text: LinkedIn
+            href: https://www.linkedin.com/in/samanthacsik/
+            target: _blank
+          - icon: envelope
+            text: email
+            href: mailto:scsik@ucsb.edu
+      - icon: github
+        href: https://github.com/samanthacsik/samanthacsik.github.io
+        target: _blank
+  page-footer: 
+    background: light
+    left: Copyright 2021, Samantha Csik
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/samanthacsik/samanthacsik.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+    # right: 
+    #   - icon: github
+    #     href: https://github.com/samanthacsik
+    #   - icon: twitter
+    #     href: https://twitter.com/SamanthaCsik
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/samanthacsik/
+    #   - icon: envelope
+    #     href: mailto:scsik@ucsb.edu
+  # reader-mode: true
+  # repo-url: https://github.com/samanthacsik/samanthacsik-quarto-website
+  # repo-actions: [edit, issue]
 
 format:
   html:
-    grid:
-      sidebar-width: 100px
-      body-width: 700px
-      margin-width: 700px
-      # gutter-width: 1.5rem
-    theme:
-      light: [flatly, theme_light_custom.scss]
-      dark: [flatly, theme_dark_custom.scss]
-    css: styles.css
     page-layout: full
-    # citations-hover: true
-    # code-link: true
-    # code-fold: show
-    # code-tools: false
-    code-block-border-left: "#004E4F"
+    sidebar: false
+    theme: 
+      - styles.scss
+    # css: styles.css
+    mainfont: Nunito
+    toc: true
 
-editor: visual
 
-execute:
-  freeze: auto
-
-resources:
-  - CNAME

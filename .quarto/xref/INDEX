@@ -1,29 +1,8 @@
 {
+  "posts/2022-10-24-quarto-blogs/index.qmd": {
+    "index.html": "92a2c85e"
+  },
   "index.qmd": {
-    "index.html": "ccf01f64"
-  },
-  "projects.qmd": {
-    "projects.html": "8cc775db"
-  },
-  "github.qmd": {
-    "github.html": "ebda9f08"
-  },
-  "resume.qmd": {
-    "resume.html": "89ca1189"
-  },
-  "Projects.qmd": {
-    "Projects.html": "6d8ac730"
-  },
-  "Resume.qmd": {
-    "Resume.html": "ca64408a"
-  },
-  "talks.qmd": {
-    "talks.html": "969b9ca4"
-  },
-  "TODO.qmd": {
-    "TODO.html": "6b62bd3f"
-  },
-  "projects/2023-09-15-L2-dative-alternations/index.qmd": {
-    "index.html": "b7a6e0e9"
+    "index.html": "7fca68bd"
   }
 }

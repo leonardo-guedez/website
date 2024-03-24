@@ -10,5 +10,20 @@
   },
   "resources.qmd": {
     "resources.html": "501be2c8"
+  },
+  "courses.qmd": {
+    "courses.html": "1ba0d1c2"
+  },
+  "projects.qmd": {
+    "projects.html": "f307cf74"
+  },
+  "projects/2023-06-22-openscapes-website-dev/index.qmd": {
+    "index.html": "835a4de4"
+  },
+  "posts.qmd": {
+    "posts.html": "a0fb2737"
+  },
+  "posts/2023-08-01-openscapes-website/index.qmd": {
+    "index.html": "834d9a1e"
   }
 }

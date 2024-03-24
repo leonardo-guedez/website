@@ -160,7 +160,7 @@ body {
 
 // resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
 .navbar-brand::after {
-  content: 'Leo Guédez';
+  content: 'Leo Guédez' !important;
   display: inline-block;
   margin-left: 10px; /* Or any spacing you need */
   cursor: pointer;

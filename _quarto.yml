@@ -9,7 +9,7 @@ website:
   #   type: express 
   #   style: headline
   #   palette: dark
-  favicon: images/chick.png
+  favicon: images/github-mark-white.png
   google-analytics: 
     tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
     anonymize-ip: true

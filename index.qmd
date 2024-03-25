@@ -9,19 +9,19 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/samanthacsik/
+      href: https://linkedin.com/in/lguedez
       target: _blank
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/SamanthaCsik
+      href: https://twitter.com/eleguedez
       target: _blank
-    - icon: github
-      text: GitHub
-      href: https://github.com/samanthacsik
-      target: _blank
+    # - icon: github
+      # text: GitHub
+      # href: https://github.com/samanthacsik
+      # target: _blank
     - icon: envelope
       text: Email
-      href: mailto:scsik@ucsb.edu
+      href: mailto:guedezle@msu.edu
 ---
 
 <!-- ::: {.small-text} -->

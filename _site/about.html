@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>posts</title>
+<title>about</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/chick.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,6 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LW03VL0YTS"></script>
 
 <script type="text/javascript">
@@ -108,38 +79,9 @@ gtag('js', new Date());
 gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="posts">
-<meta property="og:description" content="some workshop-related posts and other musings">
+<meta property="og:title" content="about">
+<meta property="og:description" content="~ a bit more about me both inside and outside of my job ~">
 </head>
 
 <body class="nav-fixed">
@@ -164,7 +106,7 @@ window.Quarto = {
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
@@ -172,7 +114,7 @@ window.Quarto = {
 <span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">posts</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -197,11 +139,6 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/samanthacsik/samanthacsik.github.io" target="_blank"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -213,8 +150,8 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">posts</h1>
-            <p class="subtitle lead">some workshop-related posts and other musings</p>
+      <h1 class="title">about</h1>
+            <p class="subtitle lead">~ a bit more about me both inside and outside of my job ~</p>
                       </div>
   </div>
     
@@ -231,185 +168,102 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="MEDS">MEDS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Openscapes">Openscapes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R-Ladies">R-Ladies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="distill">distill <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-profession" id="toc-the-profession" class="nav-link active" data-scroll-target="#the-profession"><i class="fa-solid fa-chalkboard-teacher" title="A teacher at a chalkboard" aria-hidden="true"></i> the profession</a></li>
+  <li><a href="#the-hobby" id="toc-the-hobby" class="nav-link" data-scroll-target="#the-hobby"><i class="fa-solid fa-hiking" title="A person with a backpack and trekking pole" aria-hidden="true"></i> the hobby</a></li>
+  <li><a href="#the-logo" id="toc-the-logo" class="nav-link" data-scroll-target="#the-logo"><i class="fa-solid fa-egg" title="An egg" aria-hidden="true"></i> the logo</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full column-page-left" id="quarto-document-content">
 
 
 
 
 
+<section id="the-profession" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-profession"><i class="fa-solid fa-chalkboard-teacher" title="A teacher at a chalkboard" aria-hidden="true"></i> the profession</h2>
+<p>I’m the Data Training Coordinator at the <a href="https://www.nceas.ucsb.edu/">National Center for Ecological Analysis &amp; Synthesis</a> (NCEAS) located at UC Santa Barbara, where I’m working to develop and teach data science training curricula for the <a href="https://bren.ucsb.edu/masters-programs/master-environmental-data-science">Master of Environmental Data Science</a> (MEDS) program and other data science initiatives across NCEAS and UCSB. I am also a co-organizer of <a href="https://www.meetup.com/rladies-santa-barbara/">R-Ladies Santa Barbara</a>, a local data science group which works to promote gender diversity in the R community.</p>
+<p>My background is in marine ecology / ecophysiology – I was afforded opportunities to study coral disease in Panama and the Florida Keys as an undergrad, then temperature effects on spiny lobster metabolism and foraging behavior in Santa Barbara for my Masters degree. Since the beginning of my time in STEM, I was totally terrified of all things data / coding / data science, but thanks to a super supportive community and some really rad colleagues / instructors, I found my new path in data science education and I absolutely <em>love</em> it.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/teaching.jpeg" class="img-fluid figure-img" alt="A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="extra-small-text dark-gray-text topbr">
+<p>Teaching MEDS students how to build their own personal websites using Quarto! This was especially fun for me, since Quarto was still such a new tool when I first gave this workshop – it meant a lot of discovery and learning on-the-fly alongside our students.</p>
+</div>
+</div></div><p>I’m afforded a lot of flexibility in how I teach and what I teach. My focus is on developing and delivering workshop-style classes that supplement the <a href="https://ucsb-meds.github.io/courses.html">MEDS core curriculum</a>. I teach primarily via live-coding (where my computer is hooked up to a screen for workshop participants to see and hear me talk through code in real time as they follow along on their own computers) – this teaching style was invaluable in my own development as a data scientist, and I really believe that, when done well, live-coding can be a game-changing experience for early-career coders and data scientists. I am always looking for new ways to make my teaching style and materials more approachable and inclusive for all learners – I try to build my materials to be stand-alone resources both for participants to refer back to and also for those learning on their own time. Feel free to check out / reuse / recycle any of my <a href="./talks_workshops.html">workshop</a> and <a href="./courses.html">course</a> materials.</p>
+</section>
+<section id="the-hobby" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-hobby"><i class="fa-solid fa-hiking" title="A person with a backpack and trekking pole" aria-hidden="true"></i> the hobby</h2>
+<p>I feel very fortunate to be doing so many of things that I love <em>a lot</em> right now. That includes my job, but also spending lots of time outdoors. Living in Santa Barbara is a massive privilege and being here means that we have access to both the mountains and the sea, each a few minutes in either direction. It was the ocean that brought me here originally, but most of my free time is now spent on the trails.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/tallie.jpeg" class="img-fluid figure-img" alt="A smiling woman with braiding pigtails, a blue bandana tied around her neck, and a blue hiking backback takes a selfie with a brown dog. The dog is looking towards the camera with it's tongue out. There are mountains in the background."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="extra-small-text dark-gray-text topbr">
+<p>My right-hand hiking gal, Tallie (aka Bean aka TunaB aka SweetCheeks).</p>
+</div>
+</div></div><p>I started recording my hikes (and eventually some other activities) on <a href="https://www.strava.com/">Strava</a> in late 2020 and finally got around to retrieving my activity data using the <a href="https://github.com/fawda123/rStrava"><code>{rStrava}</code></a> package. Below is a heatmap of all my recorded activities made using <a href="https://rstudio.github.io/leaflet/"><code>leaflet</code></a>. It’s challenging to see individual markers at my most frequented trailheads / starting points (toggle markers on using the layer controls in the top right corner), so I’ve recently began building out my own Strava Dashboard (using <a href="https://rstudio.github.io/shinydashboard/"><code>{shinydashboard}</code></a>) to make it a bit more interactive and filterable – it’s a work in progress, but a fun side project that I’m excited to continue iterating upon. Huge shout out to <a href="https://www.dancullen.me/">Daniel Cullen</a> (who also happens to be a Santa Barbara resident!) for his awesome <a href="https://www.dancullen.me/articles/creating-a-heatmap-in-r-with-google-polylines">blog post</a> that got me started with my own map.</p>
+<iframe id="map-size" src="images/leaflet_2024-02-24.html">
+</iframe>
+<div class="gray-italic center-text">
+<p>Map last updated: February 2023</p>
+</div>
+<p class="large-text quote-text-bg center-text">
+<i class="fa-solid fa-arrow-pointer" aria-hidden="true"></i> For a more interactive experience, click around my <a href="https://samanthacsik.shinyapps.io/strava_dashboard/">Strava dashboard</a> <br> <i class="fa-brands fa-github" aria-hidden="true"></i> Source code available on <a href="https://github.com/samanthacsik/strava-dashboard">GitHub</a>
+</p>
+<!-- NOTE: large space between last line of text and bottom of gray background when using quarto syntax, so sticking with HTML syntax above -->
+</section>
+<section id="the-logo" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-logo"><i class="fa-solid fa-egg" title="An egg" aria-hidden="true"></i> the logo</h2>
+<p>I’m a proud Csik (pronounced “chick” – Hungarian, for the curious), though I spent many of my younger years embarrassed when people (understandably) got it wrong (variations include “sea-sick,” “sick,” “ca-sick,” to name a few) – and many of us know how brutal little kid peers can be when there’s a funny way to mispronounce a name. At some point, I learned to embrace the weird and it became very much a part of my everyday identity. My track coaches and teammates would shout “LET’S GO CSIK” during my events at meets, I signed year books as “Sam [drawing of a chick]” and every handmade card received my “The Csik Press” identifying mark on the back. As I’ve grown older, I’ve taken more care to help colleagues, peers, and strangers learn the correct pronunciation – because if I’m being totally honest, I think my name is pretty darn cool <svg aria-label="Face Smile Wink" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#64605F;overflow:visible;position:relative;"><title>Face Smile Wink</title><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm165.8 21.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7s-19.9 3.8-25.4 9.7z"></path></svg>. So my first ever <em>real</em> logo is an homage to my earliest attempts at claiming my Csik identity. It may evolve a bit, but for now, it makes me pretty happy. Made using the (free!) <a href="https://www.adobe.com/express/create/logo">Adobe Express logo maker</a>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/the_csik_press.jpeg" class="img-fluid figure-img" alt="The back of a handmade card made of construction paper. A yellow chick with an orange beak holds an 'S'-shaped worm in its beak. It sits on top of the text, 'The Csik Press'. Below this, the year '2010' is written in pen."></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="extra-small-text dark-gray-text topbr">
+<p>The back of a handmade birthday card by yours truly (aka ‘The Csik Press’). Thanks, Mom, for sending me pics of these decade+ old treasures whenever you come across them. Artist: Sam Csik. Medium: construction paper, Elmer’s glue. Date: 2010 (apparently).</p>
+</div>
+</div></div><div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/logos/logo-light.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="The name, 'sam csik' in white lettering. Above 'csik' sits a horizontal dark green bar. Above the green bar is a white chick." width="468"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Quarto,Openscapes" data-listing-date-sort="1690862400000" data-listing-file-modified-sort="1711319936649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3052">
-<div class="thumbnail">
-<p><a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external"></a></p><a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">
-<p><img src="./posts/2023-08-01-openscapes-website/media/new-site.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">Porting the Openscapes website from blogdown to Quarto</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Openscapes'); return false;">
-Openscapes
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">reflections of a first-time freelancer </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-08-01-openscapes-website/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2023
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Quarto,R,MEDS" data-listing-date-sort="1666584000000" data-listing-file-modified-sort="1711319936624" data-listing-date-modified-sort="1711319936000" data-listing-reading-time-sort="17" data-listing-word-count-sort="3373">
-<div class="thumbnail">
-<p><a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external"></a></p><a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">
-<p><img src="./posts/2022-10-24-quarto-blogs/penguins.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">Adding a blog to your existing Quarto website</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
-MEDS
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">Got a Quarto website, but no blog? We can fix that! </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-10-24-quarto-blogs/index.html" class="no-external">
-<div class="listing-date">
-Oct 24, 2022
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="R-Ladies,Openscapes,R,Python,Quarto" data-listing-date-sort="1655870400000" data-listing-file-modified-sort="1711319936615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1742">
-<div class="thumbnail">
-<p><a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external"></a></p><a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">
-<p><img src="./posts/2022-06-22-hello-quarto/quarto.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">Hello Quarto!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R-Ladies'); return false;">
-R-Ladies
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Openscapes'); return false;">
-Openscapes
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">a Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara [orginally published on the Openscapes blog] </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-06-22-hello-quarto/index.html" class="no-external">
-<div class="listing-date">
-Jun 22, 2022
-</div>
-<div class="listing-author">
-Samantha Csik, Julie Lowndes, Amy Steiker, Catalina Oaida Taglialatela, Aaron Friesz, J.J. Allaire, Erin Robinson, Stefanie Butland
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="distill,R,MEDS" data-listing-date-sort="1632456000000" data-listing-file-modified-sort="1711319936614" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2269">
-<div class="thumbnail">
-<p><a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external"></a></p><a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">
-<p><img src="./posts/2021-09-21-distill-blogs/barney_blog.gif" class="thumbnail-image"></p>
-</a><p><a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">Why create presentation slides about blogging when you can just blog about it instead?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('distill'); return false;">
-distill
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
-MEDS
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">I started putting together some slides on the whys and hows of blogging using {distill} when I realized…maybe I’ve just found the content for my first blog post?? </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2021-09-21-distill-blogs/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2021
-</div>
-<div class="listing-author">
-Samantha Csik
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

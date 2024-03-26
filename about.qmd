@@ -47,6 +47,17 @@ Fluffy lounging.
 Map last updated: February 2023
 :::
 
+<!-- :::{.column-margin} -->
+<!-- ```{r} -->
+<!-- #| echo: false -->
+<!-- #| fig-alt: "A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials." -->
+<!-- knitr::include_graphics("images/Paul-from-Cynic.jpeg") -->
+<!-- ``` -->
+<!-- ::: {.extra-small-text .dark-gray-text} -->
+<!-- Paul from Cynic. -->
+<!-- ::: -->
+<!-- ::: -->
+
 <p class="large-text quote-text-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
 
 <!-- NOTE: large space between last line of text and bottom of gray background when using quarto syntax, so sticking with HTML syntax above -->

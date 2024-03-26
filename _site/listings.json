@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/2023-06-22-openscapes-website-dev/index.html"
+    ]
+  },
+  {
+    "listing": "/courses.html",
+    "items": [
+      "/courses/eds-430-shiny/index.html",
+      "/courses/eds-240-data-viz/index.html"
+    ]
+  },
+  {
     "listing": "/talks_workshops.html",
     "items": [
       "/talks_workshops/2023-08-03-just-enough-css/index.html",
@@ -13,19 +26,6 @@
       "/talks_workshops/2021-11-15-ide-tips-tricks/index.html",
       "/talks_workshops/2021-10-11-teach-me-how-to-google/index.html",
       "/talks_workshops/2019-05-15-intro-to-the-tidyverse/index.html"
-    ]
-  },
-  {
-    "listing": "/courses.html",
-    "items": [
-      "/courses/eds-430-shiny/index.html",
-      "/courses/eds-240-data-viz/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/2023-06-22-openscapes-website-dev/index.html"
     ]
   },
   {

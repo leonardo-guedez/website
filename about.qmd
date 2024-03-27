@@ -28,9 +28,11 @@ I’m afforded a lot of flexibility in how I teach and what I teach. My focus is
 
 I feel very fortunate to be doing so many of things that I love a lot right now. That includes my job, but also spending lots of time playing drums and going to concerts.
 
-I started playing drums when I was in high school, 20 years ago! Back then, I was playing along to the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones -- I'm talking Sepultura, Dimmu Borgir, Vader; every year I had to live, breath, and play faster. Then, as my playing (and hopefully my mind) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.
+I started playing drums when I was in high school, 20 years ago! Back then, I was playing along to the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones -- I'm talking Sepultura, Dimmu Borgir, Vader, Nile... Every year I had to live, breathe, and play faster. Then, as my playing (and hopefully my mind) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.
 
-Living in Michigan means that I get to enjoy the lakes, disconnect at the UP if I want to, or visit a large city like Detroit or Chicago, which I love. 
+For the past year, I've started to be intentional about going to the concerts of the bands I love. Watching Cynic for the first time was very special; not just because of their flawless playing, but mostly because Paul Masvidal transpires so much peace, and because Cynic is not a hugely famous band, so it was a very small, intimate concert.
+
+I've already checked off some of the bands I had in my todo list, like Nile, Meshuggah, Cynic, Depeche Mode. The next thing in my todo list is to dive into the pit and hopefully stage dive, although I have to be careful at my age 👴🏾.
 
 :::{.column-margin}
 ```{r}
@@ -43,22 +45,19 @@ Fluffy lounging.
 :::
 :::
 
-<iframe id="map-size" src = "images/leaflet_2024-02-24.html"></iframe>
 
-::: {.gray-italic .center-text}
-Map last updated: February 2023
+:::{.column-margin}
+```{r}
+#| echo: false
+#| fig-alt: ""
+knitr::include_graphics("images/Paul-from-Cynic.jpg")
+```
+::: {.extra-small-text .dark-gray-text}
+Paul from Cynic.
+:::
 :::
 
-<!-- :::{.column-margin} -->
-<!-- ```{r} -->
-<!-- #| echo: false -->
-<!-- #| fig-alt: "A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials." -->
-<!-- knitr::include_graphics("images/Paul-from-Cynic.jpeg") -->
-<!-- ``` -->
-<!-- ::: {.extra-small-text .dark-gray-text} -->
-<!-- Paul from Cynic. -->
-<!-- ::: -->
-<!-- ::: -->
+<iframe id="map-size" src = "images/leaflet_2024-02-24.html"></iframe>
 
 <p class="large-text quote-text-bg center-text">{{< fa arrow-pointer >}} For a more interactive experience, click around my [Strava dashboard](https://samanthacsik.shinyapps.io/strava_dashboard/) <br> {{< fa brands github >}} Source code available on [GitHub](https://github.com/samanthacsik/strava-dashboard)</p>
 

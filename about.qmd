@@ -46,9 +46,6 @@ I started playing drums when I was in high school, 20 years ago! Back then, I wa
 
 For the past year, I've started to be intentional about going to the concerts of the bands I love. Watching Cynic for the first time was very special; not just because of their flawless playing, but mostly because Paul Masvidal transpires so much peace, and because Cynic is not a crazy famous band, so it was a very small, intimate concert. By comparison, [Ulver](https://en.wikipedia.org/wiki/Ulver) (already very niche band) had 140,895 monthly listeners as of March 28 2024, whereas [Cynic](https://en.wikipedia.org/wiki/Cynic_(band)) had only 44,859 monthly listeners.
 
-I've already checked off some of the bands I had in my todo list, like Nile, Meshuggah, Cynic, Depeche Mode. The next thing in my todo list is to dive into the pit and hopefully stage dive, although I have to be careful at my age 👴🏾.
-
-
 :::{.column-margin}
 ```{r}
 #| echo: false
@@ -59,6 +56,9 @@ knitr::include_graphics("images/Paul-from-Cynic.jpg")
 Paul from Cynic.
 :::
 :::
+
+I've already checked off some of the bands I had in my todo list, like Nile, Meshuggah, Cynic, Depeche Mode. The next thing in my todo list is to dive into the pit and hopefully stage dive, although I have to be careful at my age 👴🏾.
+
 
 <!-- ## The cat #comment #4974a5 > **TODO** Talk about Fluffy here --> 
 

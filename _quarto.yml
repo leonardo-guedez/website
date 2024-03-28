@@ -35,8 +35,8 @@ website:
       #   target: _blank
       - text: get in touch!
         menu:
-          - icon: twitter
-            text: Twitter
+          - icon: 𝕏
+            text: 𝕏
             href: https://twitter.com/eleguedez
             target: _blank
           - icon: linkedin

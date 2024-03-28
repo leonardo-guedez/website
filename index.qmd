@@ -11,8 +11,8 @@ about:
       text: LinkedIn
       href: https://linkedin.com/in/lguedez
       target: _blank
-    - icon: twitter
-      text: Twitter
+    - icon: 𝕏
+      text: 𝕏 Twitter
       href: https://twitter.com/eleguedez
       target: _blank
     # - icon: github

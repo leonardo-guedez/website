@@ -1,16 +1,16 @@
 ---
-title: "Openscapes Website"
+title: "The dative alternation in L2 English"
 description: |
-  porting and redesigning the Openscapes website
+  cross-linguistics differences in three language groups
 date: 2023-06-22
-categories: [Quarto website]
+categories: [corpus linguistics, second language acquisition, usage-based linguistics]
 image: openscapes-hex-white-bg.png
 draft: false
 ---
 
-[{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/Openscapes/website-new){.btn target=_blank} [{{< fa blog >}} blogpost](../../posts/2023-08-01-openscapes-website/index.qmd){.btn target=_blank} 
+<!-- [{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/Openscapes/website-new){.btn target=_blank} [{{< fa blog >}} blogpost](../../posts/2023-08-01-openscapes-website/index.qmd){.btn target=_blank}  -->
 
-<br>
+<!-- <br> -->
 
 # Project overview
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Leo Guédez - about</title>
+<title>Leo Guédez - talks &amp; workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/github-mark-white.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,8 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LW03VL0YTS"></script>
 
 <script type="text/javascript">
@@ -79,9 +108,38 @@ gtag('js', new Date());
 gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Leo Guédez - about">
-<meta property="og:description" content="my work life and my real life">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Leo Guédez" href="talks_workshops.xml" data-external="1"><meta property="og:title" content="Leo Guédez - talks &amp; workshops">
+<meta property="og:description" content="a selection of my favorite talks &amp; workshops and associated materials">
 <meta property="og:site_name" content="Leo Guédez">
 </head>
 
@@ -107,7 +165,7 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
@@ -151,8 +209,8 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">about</h1>
-            <p class="subtitle lead">my work life and my real life</p>
+      <h1 class="title">talks &amp; workshops</h1>
+            <p class="subtitle lead">a selection of my favorite talks &amp; workshops and associated materials</p>
                       </div>
   </div>
     
@@ -169,81 +227,416 @@ gtag('config', 'G-LW03VL0YTS', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-profession" id="toc-the-profession" class="nav-link active" data-scroll-target="#the-profession"><i class="fa-solid fa-chalkboard-teacher" title="A teacher at a chalkboard" aria-hidden="true"></i> the profession</a></li>
-  <li><a href="#the-hobby" id="toc-the-hobby" class="nav-link" data-scroll-target="#the-hobby">🤘🏾 the hobby</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="AWS">AWS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CSS">CSS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JavaScript">JavaScript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MEDS">MEDS <span class="quarto-category-count">(8)</span></div><div class="category" data-category="NCEAS">NCEAS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(6)</span></div><div class="category" data-category="R-Ladies">R-Ladies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SORTEE">SORTEE <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="for loops">for loops <span class="quarto-category-count">(1)</span></div><div class="category" data-category="functions">functions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
-<section id="the-profession" class="level2">
-<h2 class="anchored" data-anchor-id="the-profession"><i class="fa-solid fa-chalkboard-teacher" title="A teacher at a chalkboard" aria-hidden="true"></i> the profession</h2>
-<p>I am a Spanish instructor and Ph.D.&nbsp;student in Second Language Acquisition in the Department of Linguistics, Languages, and Cultures at <a href="https://sls.msu.edu/">Michigan State University</a>, where I’m working on a research project that examines the correction processes in the acquisition of Spanish as a foreign language, as well as other projects that aim to develop teacher training initiatives across platforms and language contexts.</p>
-<p>My background is in applied linguistics / computational linguistics. I had the privilege to study applied linguistics in the top programs in my field, both in <a href="http://www.usb.ve/">Venezuela</a>, my home country, as well as in the US – for my masters at <a href="https://nau.edu/english/programs/masters-degrees/ma-tesl/ma-tesl-applied-linguistics/">NAU</a> through <a href="https://us.fulbrightonline.org/about/fulbright-us-student-program">Fulbright</a>, and now for my Ph.D.&nbsp;at MSU. I used to be distant to, and <em>intimidated</em> by, coding, mainly because I never thought it had any relevance to what I was doing in my field. But thanks to a couple of key moments in my career, and some really inspiring colleagues/instructors, I am now fully in love with all things programming/data science.</p>
-<!-- :::{.column-margin} -->
-<!-- ```{r} -->
-<!-- #| echo: false -->
-<!-- #| fig-alt: "A desk with a laptop displaying an Emacs setup" -->
-<!-- knitr::include_graphics("images/teaching.jpeg") -->
-<!-- ``` -->
-<!-- ::: {.extra-small-text .dark-gray-text} -->
-<!-- My Emacs setup. -->
-<!-- ::: -->
-<!-- ::: -->
-<p>For the past two years, my focus has been on using my Ph.D.&nbsp;time for leveraging my programming/research skills. After I discovered <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a> – and Vim motions, 🤫 – I am always looking for new ways to make my workflow faster and more efficient. So I primarily spend my time working on my config, of course.</p>
-</section>
-<section id="the-hobby" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="the-hobby">🤘🏾 the hobby</h2>
-<p>I feel very fortunate to be doing so many of things that I love a lot right now. That includes my job, but also spending lots of time playing drums and going to concerts.</p>
 
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/Fluffy-01.jpeg" class="img-fluid figure-img" alt="A classroom full of students face forward towards the instructor, who stands at a podium at the front of the room. Students have their laptops open on their desks. Three large TV screens are illuminated at the front of the classroom, displaying workshop materials."></p>
-</figure>
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="NCEAS,Quarto,CSS" data-listing-date-sort="1691035200000" data-listing-file-modified-sort="1711319936847" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<a href="./talks_workshops/2023-08-03-just-enough-css/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2023-08-03-just-enough-css/bob-ross.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Just enough CSS (and Sass) for data scientists
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('NCEAS'); return false;">
+NCEAS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CSS'); return false;">
+CSS
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a hands-on workshop for data scientists looking to add a little pizzazz to their web pages</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Aug 3, 2023
 </div>
 </div>
 </div>
-<div class="extra-small-text dark-gray-text">
-<p>Fluffy lounging.</p>
 </div>
-</div></div><p>I started playing drums when I was in high school, 20 years ago! Back then, I was playing along to the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones – I’m talking Krisiun, Bathory, Vader, Nile… Every year I had to live, breathe, and play faster. Then, as my playing (and hopefully my mindset) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.</p>
-<p>For the past year, I’ve started to be intentional about going to the concerts of the bands I love. Watching Cynic for the first time was very special; not just because of their flawless playing, but mostly because Paul Masvidal transpires so much peace, and because Cynic is not a crazy famous band, so it was a very small, intimate concert. By comparison, <a href="https://en.wikipedia.org/wiki/Ulver">Ulver</a> (already very niche band) had 140,895 monthly listeners as of March 28 2024, whereas <a href="https://en.wikipedia.org/wiki/Cynic_(band)">Cynic</a> had 44,859 monthly listeners.</p>
-<p>I’ve already checked off some of the bands I had in my todo list, like Nile, Meshuggah, Cynic, Depeche Mode. The next thing in my todo list is to dive into the pit and hopefully stage dive, although I have to be careful at my age 👴🏾.</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/Paul-from-Cynic.jpg" class="img-fluid figure-img"></p>
-</figure>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="SORTEE,R,JavaScript,data visualization" data-listing-date-sort="1684814400000" data-listing-file-modified-sort="1711319936806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
+<a href="./talks_workshops/2023-05-23-js-in-r/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2023-05-23-js-in-r/js_pkgs.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Integrating JavaScript Libraries into R for Dynamic Visualizations
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SORTEE'); return false;">
+SORTEE
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('JavaScript'); return false;">
+JavaScript
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a live-coding workshop on building interactive data visualizations, given as part of the SORTEE webinar series</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik, An Bui
+</div>
+<div class="listing-date">
+May 23, 2023
 </div>
 </div>
 </div>
-<div class="extra-small-text dark-gray-text">
-<p>Paul from Cynic.</p>
 </div>
-</div></div><p>Feel free to reach out! Here’s my <a href="CV/leo-guedez-CV.pdf">CV</a> and my socials below.</p>
-<div class="social-media-links">
-<p><a href="https://linkedin.com/in/lguedez" target="_blank" class="social-media-icon" style="text-decoration: none;"> <i class="fa-brands fa-linkedin"></i> </a> <a href="https://twitter.com/eleguedez" target="_blank" class="social-media-icon" style="text-decoration: none;"> 𝕏 </a> <a href="mailto:guedezle@msu.edu" class="social-media-icon" style="text-decoration: none;"> <i class="fa-solid fa-envelope"></i> </a></p>
+</a>
 </div>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="g-col-1" data-index="2" data-categories="MEDS,R,functions,for loops" data-listing-date-sort="1681444800000" data-listing-file-modified-sort="1711319936806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="229">
+<a href="./talks_workshops/2023-04-14-functions-forloops/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2023-04-14-functions-forloops/an_bui_planet.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+An iterative approach to streamlining analytical workflows using functions and for loops
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('functions'); return false;">
+functions
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('for loops'); return false;">
+for loops
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a workshop with the goal of making function and for loop writing less daunting</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Apr 14, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="MEDS,R,ggplot2,data visualization" data-listing-date-sort="1678939200000" data-listing-file-modified-sort="1711319936804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="223">
+<a href="./talks_workshops/2023-03-16-ggplot2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2023-03-16-ggplot2/ahorst_ggplot2_small.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+One workflow for building effective (and pretty) <code>{ggplot2}</code> data visualizations
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
+ggplot2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a workshop on iteratively building ggplots</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Mar 16, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="MEDS,Quarto,blogging" data-listing-date-sort="1666584000000" data-listing-file-modified-sort="1711319936800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<a href="./talks_workshops/2022-10-24-quarto-blogs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2022-10-24-quarto-blogs/penguins.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Adding a blog to your existing Quarto website
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
+blogging
+</div>
+</div>
+<div class="card-text listing-description">
+<p>got a Quarto website, but no blog? we can fix that!</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Oct 24, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="MEDS,R,Quarto,CSS" data-listing-date-sort="1665374400000" data-listing-file-modified-sort="1711319936800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<a href="./talks_workshops/2022-10-10-customizing-quarto-websites/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2022-10-10-customizing-quarto-websites/sass_css.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Customizing Quarto Websites
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CSS'); return false;">
+CSS
+</div>
+</div>
+<div class="card-text listing-description">
+<p>make your website stand out using Sass &amp; CSS</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Oct 10, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="MEDS,R,Quarto" data-listing-date-sort="1659672000000" data-listing-file-modified-sort="1711319936766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
+<a href="./talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2022-08-05-creating-your-personal-website-using-quarto/quarto_share.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Creating your personal website using Quarto
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+</div>
+<div class="card-text listing-description">
+<p>step-by-step instructions for building &amp; deploying a Quarto website</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Aug 5, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="MEDS,AWS" data-listing-date-sort="1650254400000" data-listing-file-modified-sort="1711319936766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+<a href="./talks_workshops/2022-04-18-intro-to-cloud-computing/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2022-04-18-intro-to-cloud-computing/clouds.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+An Intro to Cloud Computing
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('AWS'); return false;">
+AWS
+</div>
+</div>
+<div class="card-text listing-description">
+<p>an interactive workshop on how to launch an Amazon EC2 instance</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Apr 18, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="MEDS,R" data-listing-date-sort="1636952400000" data-listing-file-modified-sort="1711319936756" data-listing-date-modified-sort="1711319936000" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<a href="./talks_workshops/2021-11-15-ide-tips-tricks/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2021-11-15-ide-tips-tricks/lightbulb.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+RStudio Tips &amp; Tricks
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a talk on RStudio IDE tips &amp; tricks and other keyboard shortcuts</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Nov 15, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="MEDS" data-listing-date-sort="1633924800000" data-listing-file-modified-sort="1711319936756" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+<a href="./talks_workshops/2021-10-11-teach-me-how-to-google/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2021-10-11-teach-me-how-to-google/google.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Teach Me How to Google
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
+MEDS
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a talk on how to troubleshoot code and Google for helpful answers</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik
+</div>
+<div class="listing-date">
+Oct 11, 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="R-Ladies" data-listing-date-sort="1557892800000" data-listing-file-modified-sort="1711319936740" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+<a href="./talks_workshops/2019-05-15-intro-to-the-tidyverse/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./talks_workshops/2019-05-15-intro-to-the-tidyverse/infinity.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Intro to the {tidyverse}
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R-Ladies'); return false;">
+R-Ladies
+</div>
+</div>
+<div class="card-text listing-description">
+<p>a code-along workshop to learn data wrangling and visualization techniques using {tidyverse} functions</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Samantha Csik, An Bui
+</div>
+<div class="listing-date">
+May 15, 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -60,6 +60,8 @@ Paul from Cynic.
 :::
 :::
 
+<!-- ## The cat #comment #4974a5 > **TODO** Talk about Fluffy here --> 
+
 Feel free to reach out! Here's my [CV](CV/leo-guedez-CV.pdf) and my socials below.
 
 <div class="social-media-links">

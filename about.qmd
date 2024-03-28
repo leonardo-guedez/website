@@ -25,8 +25,6 @@ My background is in applied linguistics / computational linguistics. I had the p
 
 For the past two years, my focus has been on using my Ph.D. time for leveraging my programming/research skills. After I discovered [GNU Emacs](https://www.gnu.org/software/emacs/) -- and Vim motions, 🤫 -- I am always looking for new ways to make my workflow faster and more efficient. So I primarily spend my time working on my config, of course.
 
-Here's my [CV](CV/leo-guedez-CV.pdf).
-
 ## 🤘🏾 the hobby 
 
 I feel very fortunate to be doing so many of things that I love a lot right now. That includes my job, but also spending lots of time playing drums and going to concerts.
@@ -44,9 +42,9 @@ Fluffy lounging.
 :::
 
 
-I started playing drums when I was in high school, 20 years ago! Back then, I was playing along to the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones -- I'm talking Sepultura, Dimmu Borgir, Vader, Nile... Every year I had to live, breathe, and play faster. Then, as my playing (and hopefully my mind) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.
+I started playing drums when I was in high school, 20 years ago! Back then, I was playing along to the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones -- I'm talking Sepultura, Dimmu Borgir, Vader, Nile... Every year I had to live, breathe, and play faster. Then, as my playing (and hopefully my mindset) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.
 
-For the past year, I've started to be intentional about going to the concerts of the bands I love. Watching Cynic for the first time was very special; not just because of their flawless playing, but mostly because Paul Masvidal transpires so much peace, and because Cynic is not a hugely famous band, so it was a very small, intimate concert. By comparison, Ulver had, as of Mar 28 2024, 140,895 monthly listeners, whereas Cynic had 44,859 monthly listeners.
+For the past year, I've started to be intentional about going to the concerts of the bands I love. Watching Cynic for the first time was very special; not just because of their flawless playing, but mostly because Paul Masvidal transpires so much peace, and because Cynic is not a hugely famous band, so it was a very small, intimate concert. By comparison, [Ulver](https://en.wikipedia.org/wiki/Ulver) had, as of Mar 28 2024, 140,895 monthly listeners, whereas [Cynic](https://en.wikipedia.org/wiki/Cynic_(band)) had 44,859 monthly listeners.
 
 I've already checked off some of the bands I had in my todo list, like Nile, Meshuggah, Cynic, Depeche Mode. The next thing in my todo list is to dive into the pit and hopefully stage dive, although I have to be careful at my age 👴🏾.
 
@@ -62,3 +60,16 @@ Paul from Cynic.
 :::
 :::
 
+Feel free to reach out! Here's my [CV](CV/leo-guedez-CV.pdf) and my socials below.
+
+<div class="social-media-links">
+  <a href="https://www.facebook.com/your-profile" target="_blank" class="social-media-icon" style="text-decoration: none;">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://twitter.com/your_profile" target="_blank" class="social-media-icon" style="text-decoration: none;">
+    <i class="fab fa-brands fa-twitter"></i>
+  </a>
+  <a href="mailto:youremail@email.com" class="social-media-icon" style="text-decoration: none;">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>

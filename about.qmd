@@ -66,9 +66,9 @@ Feel free to reach out! Here's my [CV](CV/leo-guedez-CV.pdf) and my socials belo
   <a href="https://www.facebook.com/your-profile" target="_blank" class="social-media-icon" style="text-decoration: none;">
     <i class="fab fa-facebook"></i>
   </a>
-  <a href="https://twitter.com/your_profile" target="_blank" class="social-media-icon" style="text-decoration: none;">
-    <i class="fab fa-brands fa-twitter"></i>
-  </a>
+<a href="https://twitter.com/your_profile" target="_blank" class="social-media-icon" style="text-decoration: none;">
+  𝕏
+</a> 
   <a href="mailto:youremail@email.com" class="social-media-icon" style="text-decoration: none;">
     <i class="fas fa-envelope"></i>
   </a>

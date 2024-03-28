@@ -210,3 +210,13 @@ body {
 div.quarto-about-jolla .about-link {
   color: $dark-sage-green;
 }
+
+.social-media-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icon {
+   /* Add other styles for your icons here */
+}

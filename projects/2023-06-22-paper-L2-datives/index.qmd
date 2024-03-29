@@ -14,7 +14,7 @@ draft: false
 
 <!-- <br> -->
 
-# Project overview
+# Project overview 
 
 My first single-author research project. This was part of my Ph.D. comprehensive examination, which consists of writing two full research papers of publishable quality. I was inspired by a paper written by @bresnan2007predicting
 
@@ -23,7 +23,7 @@ freelancing adventure(!) was spent porting the [Openscapes website](https://open
 
 <br>
 
-<!-- <img class="img-styling" src="sy-river.jpeg" alt="A river runs from left to right with a low rocky bank on the left side and a taller tree-covered bluff on the right." width="70%"> -->
+<img class="img-styling" src="__analysis-01.png" alt="R" width="70%">
 
 ::: {.gray-italic .center-text}
 Santa Ynez River, Santa Barbara, CA, where Julie and I spent time brainstorming ideas for the Openscapes website 

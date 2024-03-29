@@ -25,6 +25,6 @@ freelancing adventure(!) was spent porting the [Openscapes website](https://open
 
 <img class="img-styling" src="__analysis-01.png" alt="R" width="70%">
 
-::: {.gray-italic .center-text}
-Santa Ynez River, Santa Barbara, CA, where Julie and I spent time brainstorming ideas for the Openscapes website 
+::: {.gray .center-text}
+Doing the analysis with *Emacs Speaks Statistics*.
 :::

@@ -13,7 +13,7 @@
 <lastBuildDate>Thu, 22 Jun 2023 04:00:00 GMT</lastBuildDate>
 <item>
   <title>The dative alternation in L2 English</title>
-  <link>https://www.leonardo-guedez.com/projects/2023-06-22-openscapes-website-dev/</link>
+  <link>https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/</link>
   <description><![CDATA[ 
 
 
@@ -24,23 +24,29 @@
 <!-- <br> -->
 <section id="project-overview" class="level1">
 <h1>Project overview</h1>
-<p>My first freelancing adventure(!) was spent porting the <a href="https://openscapes.org/">Openscapes website</a> from <a href="https://bookdown.org/yihui/blogdown/"><code>{blogdown}</code></a> to <a href="https://quarto.org/">Quarto</a> and redesigning aspects of the website’s layout, styling, and overall functionality. I worked closely with <a href="https://jules32.github.io/">Julie Lowndes</a> (founding director of Openscapes) and <a href="https://stefaniebutland.netlify.app/">Stefanie Butland</a> (core Openscapes team member) to bring their vision to life and it was <em>seriously</em> such a fun project. I wrote a <a href="../../posts/2023-08-01-openscapes-website/index.html">blog post</a> about my experience / some of the highlights. Check it out!</p>
+<p>My first single-author research project. This was part of my Ph.D.&nbsp;comprehensive examination, which consists of writing two full research papers of publishable quality. I was inspired by a paper written by <span class="citation" data-cites="bresnan2007predicting">Bresnan et al. (2007)</span></p>
+<p>freelancing adventure(!) was spent porting the <a href="https://openscapes.org/">Openscapes website</a> from <a href="https://bookdown.org/yihui/blogdown/"><code>{blogdown}</code></a> to <a href="https://quarto.org/">Quarto</a> and redesigning aspects of the website’s layout, styling, and overall functionality. I worked closely with <a href="https://jules32.github.io/">Julie Lowndes</a> (founding director of Openscapes) and <a href="https://stefaniebutland.netlify.app/">Stefanie Butland</a> (core Openscapes team member) to bring their vision to life and it was <em>seriously</em> such a fun project. I wrote a <a href="../../posts/2023-08-01-openscapes-website/index.html">blog post</a> about my experience / some of the highlights. Check it out!</p>
 <p><br></p>
-<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2023-06-22-openscapes-website-dev/sy-river.jpeg" alt="A river runs from left to right with a low rocky bank on the left side and a taller tree-covered bluff on the right." width="70%"></p>
+<!-- <img class="img-styling" src="sy-river.jpeg" alt="A river runs from left to right with a low rocky bank on the left side and a taller tree-covered bluff on the right." width="70%"> -->
 <div class="gray-italic center-text">
 <p>Santa Ynez River, Santa Barbara, CA, where Julie and I spent time brainstorming ideas for the Openscapes website</p>
 </div>
 
 
+
 </section>
 
- ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="2">
+<div id="ref-bresnan2007predicting" class="csl-entry">
+Bresnan, J., Cueni, A., Nikitina, T., &amp; Baayen, R. H. (2007). Predicting the dative alternation. In G. Bouma, I. Krämer, &amp; J. Zwarts (Eds.), <em>Cognitive foundations of interpretation</em> (pp. 69–94). Royal Netherlands Academy of Arts <span>and</span> Sciences.
+</div>
+</div></section></div> ]]></description>
   <category>corpus linguistics</category>
   <category>second language acquisition</category>
   <category>usage-based linguistics</category>
-  <guid>https://www.leonardo-guedez.com/projects/2023-06-22-openscapes-website-dev/</guid>
+  <guid>https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/</guid>
   <pubDate>Thu, 22 Jun 2023 04:00:00 GMT</pubDate>
-  <media:content url="https://www.leonardo-guedez.com/projects/2023-06-22-openscapes-website-dev/openscapes-hex-white-bg.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/__analysis-01.png" medium="image" type="image/png" height="94" width="144"/>
 </item>
 </channel>
 </rss>

@@ -88,14 +88,14 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "The dative alternation in L2 English\n\n\ncross-linguistics differences in three language groups\n\n\n\n\n\n\nJun 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The dative alternation in L2 English\n\n\nusage differences in three learner groups\n\n\n\n\n\n\nJun 22, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/2023-06-22-openscapes-website-dev/index.html",
     "href": "projects/2023-06-22-openscapes-website-dev/index.html",
     "title": "The dative alternation in L2 English",
     "section": "",
-    "text": "Project overview\nMy first freelancing adventure(!) was spent porting the Openscapes website from {blogdown} to Quarto and redesigning aspects of the website’s layout, styling, and overall functionality. I worked closely with Julie Lowndes (founding director of Openscapes) and Stefanie Butland (core Openscapes team member) to bring their vision to life and it was seriously such a fun project. I wrote a blog post about my experience / some of the highlights. Check it out!\n\n\n\nSanta Ynez River, Santa Barbara, CA, where Julie and I spent time brainstorming ideas for the Openscapes website"
+    "text": "Project overview\nMy first single-author research project. This was part of my Ph.D. comprehensive examination, which consists of writing two full research papers of publishable quality. I was inspired by a paper written by\nfreelancing adventure(!) was spent porting the Openscapes website from {blogdown} to Quarto and redesigning aspects of the website’s layout, styling, and overall functionality. I worked closely with Julie Lowndes (founding director of Openscapes) and Stefanie Butland (core Openscapes team member) to bring their vision to life and it was seriously such a fun project. I wrote a blog post about my experience / some of the highlights. Check it out!\n\n\n\nSanta Ynez River, Santa Barbara, CA, where Julie and I spent time brainstorming ideas for the Openscapes website"
   },
   {
     "objectID": "talks_workshops/2023-03-16-ggplot2/index.html",
@@ -383,5 +383,12 @@
     "title": "Leo Guédez",
     "section": "",
     "text": "I am an applied computational linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning. My work involves using techniques from natural language processing and multivariate statistical modeling to better understand the cognitive and linguistic mechanisms in language production.\nMy expertise extends to tools like Quarto, Git, Emacs, and Vim mode for effective data management and presentations. I am currently in the revision stage for a computational linguistics single-authored manuscript that will be submitted to a peer-reviewed journal in the field. At the same time, I am co-authoring a second manuscript where we explore the perceptions of conversation partners on interaction training in the context of synchronous video computer-mediated communication (SVCMC)."
+  },
+  {
+    "objectID": "projects/2023-06-22-paper-L2-datives/index.html",
+    "href": "projects/2023-06-22-paper-L2-datives/index.html",
+    "title": "The dative alternation in L2 English",
+    "section": "",
+    "text": "Project overview\nMy first single-author research project. This was part of my Ph.D. comprehensive examination, which consists of writing two full research papers of publishable quality. I was inspired by a paper written by Bresnan et al. (2007)\nfreelancing adventure(!) was spent porting the Openscapes website from {blogdown} to Quarto and redesigning aspects of the website’s layout, styling, and overall functionality. I worked closely with Julie Lowndes (founding director of Openscapes) and Stefanie Butland (core Openscapes team member) to bring their vision to life and it was seriously such a fun project. I wrote a blog post about my experience / some of the highlights. Check it out!\n\n\n\nSanta Ynez River, Santa Barbara, CA, where Julie and I spent time brainstorming ideas for the Openscapes website\n\n\n\n\n\n\nReferences\n\nBresnan, J., Cueni, A., Nikitina, T., & Baayen, R. H. (2007). Predicting the dative alternation. In G. Bouma, I. Krämer, & J. Zwarts (Eds.), Cognitive foundations of interpretation (pp. 69–94). Royal Netherlands Academy of Arts and Sciences."
   }
 ]

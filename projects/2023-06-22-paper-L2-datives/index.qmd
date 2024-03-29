@@ -12,16 +12,16 @@ draft: false
 
 <!-- [{{< fa laptop >}} Openscapes website](https://openscapes.org/){.btn target=_blank} [{{< fa brands github >}} source code](https://github.com/Openscapes/website-new){.btn target=_blank} [{{< fa blog >}} blogpost](../../posts/2023-08-01-openscapes-website/index.qmd){.btn target=_blank}  -->
 
+
 <!-- <br> -->
 
 # Project overview 
 
 My first single-author research project. This was part of my Ph.D. comprehensive examination, which consists of writing two full research papers of publishable quality. I was inspired by a paper written by @bresnan2007predicting.
-
 <br>
 
 <img class="img-styling" src="__analysis-01.png" alt="R" width="70%">
 
 ::: {.gray .center-text}
-Doing the analysis with *Emacs Speaks Statistics*.
+Doing the analysis with R inside Emacs, using the package *Emacs Speaks Statistics (ESS)*.
 :::

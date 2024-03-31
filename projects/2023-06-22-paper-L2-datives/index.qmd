@@ -17,16 +17,13 @@ draft: false
 
 # Project overview
 
-Part of my Ph.D. comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a study written by @bresnan2007predicting. In their original study, the authors challenged the traditional reliance on made-up examples in linguistics. They showed that by analyzing real-world language patterns using advanced statistical techniques, we can uncover a much richer and complex picture of how grammar actually works. This is particularly evident in phenomena like the **dative alternation**, where speakers have a choice between seemingly interchangeable phrasings, like *I gave [the book]{.underline} [to Mary]{.smallcaps}* vs. *I gave [Mary]{.smallcaps} [the book]{.underline}*.
+Part of my Ph.D. comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a study written by @bresnan2007predicting. In their original paper, the authors challenged the traditional reliance on made-up examples in linguistics. They showed that by analyzing real-world language patterns using advanced statistical techniques, we can uncover a much richer and complex picture of how grammar actually works. This is particularly evident in phenomena like the **dative alternation**, where speakers have a choice between seemingly interchangeable phrasings, like *I gave [the book]{.underline} [to Mary]{.smallcaps}* vs. *I gave [Mary]{.smallcaps} [the book]{.underline}*.
 
-For example, if we compare the question *Who sent [the box]{.smallcaps} [to Germany]{.underline}?* with *Who sent [Germany]{.underline} [the box]{.smallcaps}?*, speakers will likely find the latter option somewhat odd; this is because **animacy** (e.g., whether the thing referred to is a person or not) is one important factor that influences the choice between the one phrasing vs. the other [@winter2020statistics]. In contrast, when there is an animate recipient, the ditransitive variant seems to work just fine, e.g., *Who sent [Sarah]{.underline} [the box]{.smallcaps}?* Other factors governing the dative alternation are the syntactic weight (or length) of the constituents, the type of noun phrase (e.g., pronominal vs. non-pronominal), givenness or accessibility (whether the recipient/patient was mentioned in previous discourse or not), among others.
+Consider this -- if we compare (i) *Who sent [the box]{.smallcaps} [to Germany]{.underline}?* with (ii) *Who sent [Germany]{.underline} [the box]{.smallcaps}?*, speakers will likely find (ii) somewhat odd; this is because the **animacy** of the recipient ([Germany]{.underline} -- an **inanimate** noun) is one important factor that influences the choice between one phrasing vs. the other [@winter2020statistics]. In contrast, when there is an **animate** recipient, the (ii) structure/type seems to work just fine, e.g., *Who sent [Sarah]{.underline} [the box]{.smallcaps}?* Other factors governing the dative alternation are the length of the constituents, the type of noun phrase (e.g., pronominal vs. non-pronominal), whether the recipient/patient was mentioned in previous discourse or not, among other factors. @bresnan2007predicting showed that linguistic predictors must be examined using multilevel modeling, because such factors are nested and co-dependent, acting simultaneously upon the outcome variable.
 
-Bresnan and colleagues showed that
+What I did in my own paper was to explore whether speakers of other languages show similar usage patters of the dative alternations compared to English speakers. @callies2008argument
 
-
-
-Empirical evidence within the probabilistic approach generally comes from naturalistic, i.e., corpus-based, data. Additionally, predictors are analyzed with multifactorial statistical techniques in order to control for multiple factors that act simultaneously upon an outcome variable.
-
+@gries2015efl
 
 <br>
 

@@ -17,7 +17,7 @@ draft: false
 
 # Project overview 
 
-Part of my Ph.D. comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a paper written by @bresnan2007predicting. 
+Part of my Ph.D. comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a paper written by @bresnan2007predicting.
 <br>
 
 <img class="img-styling" src="__analysis-01.png" alt="R" width="70%">

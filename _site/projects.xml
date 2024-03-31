@@ -24,11 +24,10 @@
 <!-- <br> -->
 <section id="project-overview" class="level1">
 <h1>Project overview</h1>
-<p>My first single-author research project. This was part of my Ph.D.&nbsp;comprehensive examination, which consists of writing two full research papers of publishable quality. I was inspired by a paper written by <span class="citation" data-cites="bresnan2007predicting">Bresnan et al. (2007)</span>.</p>
-<p><br></p>
+<p>Part of my Ph.D.&nbsp;comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a paper written by <span class="citation" data-cites="bresnan2007predicting">Bresnan et al. (2007)</span>. <br></p>
 <p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/__analysis-01.png" alt="R" width="70%"></p>
 <div class="gray center-text">
-<p>Doing the analysis with <em>Emacs Speaks Statistics</em>.</p>
+<p>Doing the analysis with R inside Emacs, using the package <em>Emacs Speaks Statistics (ESS)</em>.</p>
 </div>
 
 

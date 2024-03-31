@@ -10,7 +10,7 @@
 <atom:link href="https://www.leonardo-guedez.com/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.552</generator>
-<lastBuildDate>Thu, 22 Jun 2023 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 Mar 2024 03:07:18 GMT</lastBuildDate>
 <item>
   <title>The dative alternation in L2 English</title>
   <link>https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/</link>
@@ -20,8 +20,10 @@
 
 
 
-<!-- [ Openscapes website](https://openscapes.org/){.btn target=_blank} [ source code](https://github.com/Openscapes/website-new){.btn target=_blank} [ blogpost](../../posts/2023-08-01-openscapes-website/index.qmd){.btn target=_blank} # #comment #4974a5 > **TODO** use one of these buttons to link it to the blog post. Also, divide each entry into two: a short "projects" page and a "post" page linked to each other, as in https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/. Look at the blogspot button there -->
+<!-- [ Openscapes website](https://openscapes.org/){.btn target=_blank} [ source code](https://github.com/Openscapes/website-new){.btn target=_blank} [ blogpost](../../posts/2023-08-01-openscapes-website/index.qmd){.btn target=_blank} # **TODO** use one of these buttons to link it to the blog post. Also, divide each entry into two: a short "projects" page and a "post" page linked to each other, as in https://samanthacsik.github.io/projects/2023-06-22-openscapes-website-dev/. Look at the blogspot button there -->
+<!-- **TODO** Explain "reliance on made-up examples in linguistics" -->
 <!-- <br> -->
+<p><span class="smallcaps">posted</span> <br> June 22, 2023</p>
 <section id="project-overview" class="level1">
 <h1>Project overview</h1>
 <p>Part of my Ph.D.&nbsp;comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a study written by <span class="citation" data-cites="bresnan2007predicting">Bresnan et al. (2007)</span>. In their original paper, the authors challenged the traditional reliance on made-up examples in linguistics. They showed that by analyzing real-world language patterns using advanced statistical techniques, we can uncover a much richer and complex picture of how grammar actually works. This is particularly evident in phenomena like the <strong>dative alternation</strong>, where speakers have a choice between seemingly interchangeable phrasings, like <em>I gave <u>the book</u> <span class="smallcaps">to Mary</span></em> vs.&nbsp;<em>I gave <span class="smallcaps">Mary</span> <u>the book</u></em>.</p>
@@ -56,7 +58,7 @@ Winter, B. (2020). <em>Statistics for linguists: An introduction using <span>R</
   <category>second language acquisition</category>
   <category>usage-based linguistics</category>
   <guid>https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/</guid>
-  <pubDate>Thu, 22 Jun 2023 04:00:00 GMT</pubDate>
+  <pubDate>Sun, 31 Mar 2024 03:07:18 GMT</pubDate>
   <media:content url="https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/__analysis-01.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>

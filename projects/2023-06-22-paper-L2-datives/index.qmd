@@ -15,9 +15,10 @@ draft: false
 
 <!-- <br> -->
 
-# Project overview 
+# Project overview
 
-Part of my Ph.D. comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a paper written by @bresnan2007predicting.
+Part of my Ph.D. comprehensive examination consists of writing two full, single-authored research papers of publishable quality. This is the first one of those papers. I was inspired by a paper written by @bresnan2007predicting. In their original study, the authors challenged the traditional reliance on made-up examples in linguistics. They showed that by analyzing real-world language patterns, we uncover a much richer and complex picture of how grammar works.
+
 <br>
 
 <img class="img-styling" src="__analysis-01.png" alt="R" width="70%">

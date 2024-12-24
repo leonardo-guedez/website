@@ -17,7 +17,7 @@ website:
   navbar:
     title: false
     logo: images/logos/logo-dark.png
-    logo-alt: "The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon."
+    # logo-alt: ""
     right:
       - href: index.qmd
         text: home

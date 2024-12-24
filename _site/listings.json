@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/2023-06-22-paper-L2-datives/index.html"
+    ]
+  },
+  {
+    "listing": "/courses.html",
+    "items": [
+      "/courses/eds-240-data-viz/index.html"
+    ]
+  },
+  {
+    "listing": "/talks_workshops.html",
+    "items": [
+      "/talks_workshops/2023-05-23-js-in-r/index.html"
+    ]
+  }
+]

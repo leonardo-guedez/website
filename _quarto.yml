@@ -11,13 +11,13 @@ website:
   #   palette: dark
   favicon: images/github-mark-white.png
   google-analytics: 
-    tracking-id: "G-LW03VL0YTS" #"UA-242992767-1"
+    tracking-id: "G-LW03VL0YTS"
     anonymize-ip: true
   title: "Leo Guédez"
   navbar:
     title: false
     logo: images/logos/logo-dark.png
-    logo-alt: "The name 'sam csik' written in green text. Above 'csik' is a dark green horizontal line, above which sits a green chick icon."
+    # logo-alt: ""
     right:
       - href: index.qmd
         text: home
@@ -28,7 +28,7 @@ website:
         # text: courses
       - href: projects.qmd
         text: projects
-      - posts.qmd
+      # - posts.qmd
       # - resources.qmd
       # - href: CV/SCsik_CV.pdf
       #   text: cv

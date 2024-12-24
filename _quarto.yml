@@ -28,7 +28,7 @@ website:
         # text: courses
       - href: projects.qmd
         text: projects
-      - posts.qmd
+      # - posts.qmd
       # - resources.qmd
       # - href: CV/SCsik_CV.pdf
       #   text: cv

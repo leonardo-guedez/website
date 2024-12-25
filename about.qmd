@@ -68,9 +68,9 @@ Feel free to reach out! Here's my [CV](CV/leo-guedez-CV.pdf) and my socials belo
   <a href="https://linkedin.com/in/lguedez" target="_blank" class="social-media-icon" style="text-decoration: none;">
       <i class="fa-brands fa-linkedin"></i> 
   </a>
-  <a href="https://twitter.com/eleguedez" target="_blank" class="social-media-icon" style="text-decoration: none;">
-      𝕏
-  </a>
+  <!-- <a href="https://twitter.com/eleguedez" target="_blank" class="social-media-icon" style="text-decoration: none;"> -->
+  <!--     𝕏 -->
+  <!-- </a> -->
   <a href="mailto:guedezle@msu.edu" class="social-media-icon" style="text-decoration: none;">
       <i class="fa-solid fa-envelope"></i>
   </a>

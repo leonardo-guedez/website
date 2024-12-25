@@ -11,10 +11,10 @@ about:
       text: LinkedIn
       href: https://linkedin.com/in/lguedez
       target: _blank
-    - icon: 𝕏 Twitter
-      text: 𝕏 Twitter
-      href: https://twitter.com/eleguedez
-      target: _blank
+    # - icon: 𝕏 Twitter
+    #   text: 𝕏 Twitter
+    #   href: https://twitter.com/eleguedez
+    #   target: _blank
     # - icon: github
       # text: GitHub
       # href: https://github.com/samanthacsik

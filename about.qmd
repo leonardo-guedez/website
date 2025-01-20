@@ -64,6 +64,10 @@ I've already checked off some of the bands I had in my todo list, like Nile, Mes
 
 Feel free to reach out! Here's my [resume](CV/leo-guedez-resume.pdf) and my socials below.
 
+<!-- ::: {.column-page} -->
+<!-- <iframe src="CV/leo-guedez-resume.pdf" width="100%" height="800px" frameborder="0"></iframe> -->
+<!-- ::: -->
+
 <div class="social-media-links">
   <a href="https://linkedin.com/in/lguedez" target="_blank" class="social-media-icon" style="text-decoration: none;">
       <i class="fa-brands fa-linkedin"></i>

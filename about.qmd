@@ -72,10 +72,10 @@ Feel free to reach out! Here's my [resume](CVs/leo-guedez-resume.pdf){target="_b
   <a href="https://linkedin.com/in/lguedez" target="_blank" class="social-media-icon" style="text-decoration: none;">
       <i class="fa-brands fa-linkedin"></i>
   </a>
-  <a href="https://bsky.app/profile/eleguedez.bsky.social" target="_blank" class="social-media-icon"
-  style="text-decoration: none;">
-      <img src="images/bluesky-logo.png" alt="Bluesky" width="36" height="36" style="vertical-align: -10px;">
-  </a>
+<a href="https://bsky.app/profile/eleguedez.bsky.social" target="_blank" class="social-media-icon" style="text-decoration: none;">
+    <img src="images/bluesky-logo.png" alt="Bluesky" width="36" height="36" 
+         style="vertical-align: -10px; filter: brightness(0) saturate(100%) invert(42%) sepia(19%) saturate(1237%) hue-rotate(248deg) brightness(92%) contrast(88%);">
+</a>
   <a href="mailto:eleguedez@protonmail.com" class="social-media-icon" style="text-decoration: none;">
       <i class="fa-solid fa-envelope"></i>
   </a>

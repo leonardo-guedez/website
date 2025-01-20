@@ -15,3 +15,9 @@
 ** resumeSubHeadingListStart
 
 ** resumeSubHeadingListEnd
+
+**       {Universidad Simón Bolívar}{Caracas, Venezuela} 
+
+** \vspace{3pt} 
+
+** \resumeSubheading 

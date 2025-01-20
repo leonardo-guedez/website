@@ -1,0 +1,17 @@
+
+* leo-guedez-resume
+:PROPERTIES:
+:org-remark-file: leo-guedez-resume.tex
+:END:
+
+** \resumeSubheading
+
+** resumeSubheading
+
+** resumeItemListStart
+
+** resumeSubheading
+
+** resumeSubHeadingListStart
+
+** resumeSubHeadingListEnd

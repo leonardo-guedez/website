@@ -9,7 +9,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/lguedez
+      href: https://linkedin.com/in/eleguedez
       target: _blank
     # - icon: 𝕏 Twitter
     #   text: 𝕏 Twitter
@@ -21,7 +21,8 @@ about:
       # target: _blank
     - icon: envelope
       text: Email
-      href: mailto:guedezle@msu.edu
+      href: mailto:eleguedez@protonmail.com
+      target: _blank
 ---
 
 <!-- ::: {.small-text} -->

@@ -1,10 +1,10 @@
 ---
 title: "about"
-subtitle: "my work life and my real life"
+subtitle: "My work life and my real life"
 title-block-banner: true
 ---
 
-## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} the profession
+## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} My work life 
 
 I am a Spanish instructor and Ph.D. student in Second Language Acquisition in the Department of Linguistics, Languages, and Cultures at [Michigan State University](https://sls.msu.edu/), where I'm working on a research project that examines the correction processes in the acquisition of Spanish as a foreign language, as well as other projects that aim to develop teacher training initiatives across platforms and language contexts.
 
@@ -25,7 +25,7 @@ My background is in applied linguistics / computational linguistics. I had the p
 
 For the past two years, my focus has been on using my Ph.D. time for leveraging my programming/research skills. After I discovered [GNU Emacs](https://www.gnu.org/software/emacs/) -- and Vim motions, 🤫 -- I am always looking for new ways to make my workflow faster and more efficient. So I primarily spend my time working on my config, of course.
 
-## 🤘🏾 the hobby 
+## 🤘🏾 My real life 
 
 I feel very fortunate to be doing so many of things that I love a lot right now. That includes my job, but also spending lots of time playing drums and going to concerts.
 

@@ -45,7 +45,7 @@ format:
     theme: 
       - styles.scss
     # css: styles.css
-    mainfont: Nunito
+    mainfont: Kohinoor Bangla
     toc: true
 
 

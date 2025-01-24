@@ -10,9 +10,9 @@ website:
   #   style: headline
   #   palette: dark
   favicon: images/github-mark-white.png
-  google-analytics: 
-    tracking-id: "G-LW03VL0YTS"
-    anonymize-ip: true
+  # google-analytics: 
+  #   tracking-id: "G-LW03VL0YTS"
+  #   anonymize-ip: true
   title: "Leo Guédez"
   navbar:
     title: false

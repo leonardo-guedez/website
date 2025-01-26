@@ -9,7 +9,7 @@
 <link>https://www.leonardo-guedez.com/talks_workshops.html</link>
 <atom:link href="https://www.leonardo-guedez.com/talks_workshops.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.39</generator>
+<generator>quarto-1.6.40</generator>
 <lastBuildDate>Tue, 23 May 2023 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Integrating JavaScript Libraries into R for Dynamic Visualizations</title>

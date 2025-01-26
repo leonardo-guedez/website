@@ -16,7 +16,7 @@ website:
   title: "Leo Guédez"
   navbar:
     title: false
-    logo: images/logos/logo-dark.png
+    # logo: images/logos/logo-dark.png
     # logo-alt: ""
     right:
       - href: index.qmd

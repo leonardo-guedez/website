@@ -4,7 +4,7 @@ subtitle: "My work life and my real life"
 title-block-banner: true
 ---
 
-## {{< fa chalkboard-teacher title="A teacher at a chalkboard" >}} My work life 
+## 📃 My work life 
 
 I am a Spanish instructor and Ph.D. student in Second Language Acquisition in the Department of Linguistics, Languages, and Cultures at [Michigan State University](https://sls.msu.edu/), where I'm working on a research project that examines the correction processes in the acquisition of Spanish as a foreign language, as well as other projects that aim to develop teacher training initiatives across platforms and language contexts.
 

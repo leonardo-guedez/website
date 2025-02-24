@@ -6,9 +6,9 @@ title-block-banner: true
 
 ## 📃 My work life 
 
-I am a Spanish instructor and Ph.D. student in Second Language Acquisition in the Department of Linguistics, Languages, and Cultures at [Michigan State University](https://sls.msu.edu/), where I'm working on a research project that examines the correction processes in the acquisition of Spanish as a foreign language, as well as other projects that aim to develop teacher training initiatives across platforms and language contexts.
+I am an undergraduate instructor and Ph.D. student in Second Language Acquisition in the Department of Linguistics, Languages, and Cultures at [Michigan State University](https://sls.msu.edu/), where I'm working on my dissertation, which examines the correction processes in the acquisition of Spanish as a foreign language.
 
-My background is in applied linguistics / computational linguistics. I had the privilege to study applied linguistics in the top programs in my field, both in [Venezuela](http://www.usb.ve/), my home country, as well as in the US -- for my masters at [NAU](https://nau.edu/english/programs/masters-degrees/ma-tesl/ma-tesl-applied-linguistics/) through [Fulbright](https://us.fulbrightonline.org/about/fulbright-us-student-program), and now for my Ph.D. at MSU. I used to be distant to, and *intimidated* by, coding, mainly because I never thought it had any relevance to what I was doing in my field. But thanks to a couple of key moments in my career, and some really inspiring colleagues/instructors, I am now fully in love with all things programming/data science.
+My background is in applied linguistics / computational linguistics. I had the privilege to study applied linguistics in the top programs in my field, both in [Venezuela](http://www.usb.ve/), my home country, as well as in the US -- for my masters at [NAU](https://nau.edu/english/programs/masters-degrees/ma-tesl/ma-tesl-applied-linguistics/) through [Fulbright](https://us.fulbrightonline.org/about/fulbright-us-student-program), and now for my Ph.D. at MSU. I used to be distant to, and *intimidated* by, coding, mainly because I never thought it had any relevance to what I was doing in my field. But thanks to a couple of key moments in my career, and some really inspiring colleagues/instructors, I am now fully in love with all things programming.
 
 
 <!-- :::{.column-margin} -->
@@ -23,12 +23,9 @@ My background is in applied linguistics / computational linguistics. I had the p
 <!-- ::: -->
 
 
-For the past two years, my focus has been on using my Ph.D. time for leveraging my programming/research skills. After I discovered [GNU Emacs](https://www.gnu.org/software/emacs/) -- and Vim motions, 🤫 -- I am always looking for new ways to make my workflow faster and more efficient. So I primarily spend my time working on my config, of course.
+In addition to my dissertation, my focus has been on using my Ph.D. time for leveraging my programming/research skills. After I discovered [GNU Emacs](https://www.gnu.org/software/emacs/) -- and Vim motions, 🤫 -- I am always looking for new ways to make my workflow faster and more efficient. So I primarily spend my time working on my config, of course.
 
 ## 🤘🏾 My real life 
-
-I feel very fortunate to be doing so many of things that I love a lot right now. That includes my job, but also spending lots of time playing drums and going to concerts.
-
 
 :::{.column-margin}
 ```{r}
@@ -42,7 +39,7 @@ Fluffy lounging.
 :::
 
 
-I started playing drums when I was in high school, 20 years ago! Back then, I was playing along to the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones -- I'm talking Krisiun, Bathory, Vader, Nile... Every year I had to live, breathe, and play faster. Then, as my playing (and hopefully my mindset) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.
+I started playing drums in 2003. Back then, I was playing along to songs from the bands of my era (Audioslave, Linkin Park, System of a Down, etc.). But then, I had to go heavier, right? I went quickly from Metallica, Slipknot, and Slayer, to the real extreme ones -- I'm talking Krisiun, Bathory, Vader, Nile... Every year I had to live, breathe, and play faster. Then, as my playing (and hopefully my mindset) became more mature, I delved into more technical, more musically involved stuff, until I discovered bands like Death, Cynic, and Meshuggah. I did flirt with jazz for a while, and I learned a lot, but metal is my true love.
 
 For the past year, I've started to be intentional about going to the concerts of the bands I love. Watching Cynic for the first time was very special; not just because of their flawless playing, but mostly because Paul Masvidal transpires so much peace, and because Cynic is not a crazy famous band, so it was a very small, intimate concert. By comparison, [Ulver](https://en.wikipedia.org/wiki/Ulver) (already very niche band) had 132,314 monthly listeners as of Jan 20 2025, whereas [Cynic](https://en.wikipedia.org/wiki/Cynic_(band)) had only 38,598 monthly listeners.
 

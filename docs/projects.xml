@@ -10,10 +10,10 @@
 <atom:link href="https://www.leonardo-guedez.com/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 28 Jan 2026 23:44:54 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Jan 2026 23:48:09 GMT</lastBuildDate>
 <item>
   <title>The dative alternation in L2 English</title>
-  <link>https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/</link>
+  <link>https://www.leonardo-guedez.com/projects/2024-09-15-dative-alternation/</link>
   <description><![CDATA[ 
 
 
@@ -39,7 +39,7 @@
 <h2 class="anchored" data-anchor-id="data-and-methods">Data and methods</h2>
 <p>I extracted 1,492 instances of the dative construction from the <em>International Corpus of Learner English</em> (ICLE) and its native-speaker counterpart, <em>LOCNESS</em>. The analysis focused on ten dative verbs (<em>ask</em>, <em>give</em>, <em>show</em>, <em>tell</em>, <em>lend</em>, <em>send</em>, <em>bring</em>, <em>pass</em>, <em>sell</em>, and <em>write</em>) and annotated each instance for factors such as recipient/patient animacy, pronominality, accessibility (given vs.&nbsp;new information), length, and semantics. A mixed-effects logistic regression was used to model the choice between the ditransitive and prepositional dative variants.</p>
 <p><br></p>
-<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/__analysis-01.png" alt="R" width="70%"></p>
+<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2024-09-15-dative-alternation/__analysis-01.png" alt="R" width="70%"></p>
 <div class="gray center-text">
 <p>Doing the analysis with R inside Emacs, using the package <em>Emacs Speaks Statistics (ESS)</em>.</p>
 </div>
@@ -82,13 +82,13 @@ Winter, B. (2020). <em>Statistics for linguists: An introduction using <span>R</
   <category>corpus linguistics</category>
   <category>second language acquisition</category>
   <category>usage-based linguistics</category>
-  <guid>https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/</guid>
-  <pubDate>Wed, 28 Jan 2026 23:44:54 GMT</pubDate>
-  <media:content url="https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/__analysis-01.png" medium="image" type="image/png" height="90" width="144"/>
+  <guid>https://www.leonardo-guedez.com/projects/2024-09-15-dative-alternation/</guid>
+  <pubDate>Wed, 28 Jan 2026 23:48:09 GMT</pubDate>
+  <media:content url="https://www.leonardo-guedez.com/projects/2024-09-15-dative-alternation/__analysis-01.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 <item>
   <title>Self-repairs in spoken L2 Spanish</title>
-  <link>https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/</link>
+  <link>https://www.leonardo-guedez.com/projects/2025-01-10-self-repairs/</link>
   <description><![CDATA[ 
 
 
@@ -129,7 +129,7 @@ Winter, B. (2020). <em>Statistics for linguists: An introduction using <span>R</
 </ul>
 <p>The takeaway? Self-repairs aren’t signs of failure – they’re signs of learning. When a student catches their own mistake, that’s their language system working exactly as it should.</p>
 <p><br></p>
-<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/bayesian-posterior.png" alt="Bayesian posterior distributions" width="90%"></p>
+<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2025-01-10-self-repairs/bayesian-posterior.png" alt="Bayesian posterior distributions" width="90%"></p>
 <div class="gray center-text">
 <p>Posterior distributions from the Bayesian mixed-effects model, showing how repair frequencies vary by proficiency level.</p>
 </div>
@@ -169,9 +169,9 @@ Tavakoli, P., &amp; Wright, C. (2020). <em>Second language speech fluency: From 
   <category>corpus linguistics</category>
   <category>second language acquisition</category>
   <category>Bayesian statistics</category>
-  <guid>https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/</guid>
-  <pubDate>Wed, 28 Jan 2026 23:44:54 GMT</pubDate>
-  <media:content url="https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/bayesian-posterior.png" medium="image" type="image/png" height="64" width="144"/>
+  <guid>https://www.leonardo-guedez.com/projects/2025-01-10-self-repairs/</guid>
+  <pubDate>Wed, 28 Jan 2026 23:48:09 GMT</pubDate>
+  <media:content url="https://www.leonardo-guedez.com/projects/2025-01-10-self-repairs/bayesian-posterior.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 </channel>
 </rss>

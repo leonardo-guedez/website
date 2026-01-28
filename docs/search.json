@@ -222,5 +222,82 @@
     "title": "Self-repairs in spoken L2 Spanish",
     "section": "What’s next: My dissertation",
     "text": "What’s next: My dissertation\nThis project planted the seed for my dissertation, which expands on these findings in two major ways. First, I’m working with a much larger dataset – more participants, more speech samples, and more statistical power to detect subtle effects. Second, and more excitingly, I’m analyzing conversations from TalkAbroad, a platform where language learners have real video conversations with native speakers around the world. Unlike the structured interview tasks in SPLLOC2, TalkAbroad conversations are genuinely communicative – learners are talking to real people about real topics, with all the unpredictability that entails. This shift from semi-controlled elicitation to authentic interaction should give us a richer picture of how self-repair operates when the stakes feel real and the conversation is unscripted."
+  },
+  {
+    "objectID": "projects/2024-09-15-dative-alternation/index.html",
+    "href": "projects/2024-09-15-dative-alternation/index.html",
+    "title": "The dative alternation in L2 English",
+    "section": "",
+    "text": "posted  September 15, 2024"
+  },
+  {
+    "objectID": "projects/2024-09-15-dative-alternation/index.html#research-questions",
+    "href": "projects/2024-09-15-dative-alternation/index.html#research-questions",
+    "title": "The dative alternation in L2 English",
+    "section": "Research questions",
+    "text": "Research questions\n\nTo what extent are the dative-alternation choices of Spanish, German, and Chinese learners of English different from those of native speakers?\nHow differently do these learner groups rely on the linguistic and contextual factors that influence the choice of the dative construction in English?"
+  },
+  {
+    "objectID": "projects/2024-09-15-dative-alternation/index.html#data-and-methods",
+    "href": "projects/2024-09-15-dative-alternation/index.html#data-and-methods",
+    "title": "The dative alternation in L2 English",
+    "section": "Data and methods",
+    "text": "Data and methods\nI extracted 1,492 instances of the dative construction from the International Corpus of Learner English (ICLE) and its native-speaker counterpart, LOCNESS. The analysis focused on ten dative verbs (ask, give, show, tell, lend, send, bring, pass, sell, and write) and annotated each instance for factors such as recipient/patient animacy, pronominality, accessibility (given vs. new information), length, and semantics. A mixed-effects logistic regression was used to model the choice between the ditransitive and prepositional dative variants.\n\n\n\nDoing the analysis with R inside Emacs, using the package Emacs Speaks Statistics (ESS)."
+  },
+  {
+    "objectID": "projects/2024-09-15-dative-alternation/index.html#key-findings",
+    "href": "projects/2024-09-15-dative-alternation/index.html#key-findings",
+    "title": "The dative alternation in L2 English",
+    "section": "Key findings",
+    "text": "Key findings\n\nOverall preference: About 7 out of 10 sentences used the “give Mary the book” structure rather than “give the book to Mary” – and this was true for both native speakers and learners.\nYour first language matters: Chinese speakers preferred “give the book to Mary” much more than other groups, while German speakers went with “give Mary the book” even more often than native English speakers did. This suggests that how your native language handles these structures influences the choices you make in English.\nLength is a helpful cue: When one part of the sentence was clearly longer than the other, learners made more native-like choices. But when both parts were similar in length, learners struggled – they couldn’t rely on this intuitive “put the short thing first” strategy.\nDifferent struggles for different groups: When length cues weren’t helpful, Chinese and German speakers made opposite kinds of mistakes – Chinese speakers avoided the “give Mary the book” structure while German speakers overused it. Spanish speakers landed somewhere in the middle.\n\nThe key takeaway is that learners from different language backgrounds pick up on different cues when deciding how to phrase things in English. This matters for teaching – what works for one group of learners might not necessarily work so well for another."
+  },
+  {
+    "objectID": "projects/2024-09-15-dative-alternation/index.html#what-i-learned",
+    "href": "projects/2024-09-15-dative-alternation/index.html#what-i-learned",
+    "title": "The dative alternation in L2 English",
+    "section": "What I learned",
+    "text": "What I learned\nProfessionally, this project pushed me to develop skills I didn’t know I needed. I went from being someone who was intimidated by statistics to someone who could build mixed-effects regression models and actually understand what they were telling me. The process of manually annotating nearly 1,500 sentences taught me patience and attention to detail – and also made me deeply appreciate the value of automation (I wrote Python scripts for everything I could after that).\nOn a personal level, this project taught me that I can do hard things if I break them into smaller pieces. There were moments when the data felt overwhelming, when the models wouldn’t converge, when I questioned whether I had any business doing quantitative research. But working through those moments – often late at night with too much coffee – showed me that persistence matters more than talent. I also learned that asking for help isn’t a weakness; some of my biggest breakthroughs came from conversations with colleagues who saw things I couldn’t see."
+  },
+  {
+    "objectID": "projects/2025-01-10-self-repairs/index.html",
+    "href": "projects/2025-01-10-self-repairs/index.html",
+    "title": "Self-repairs in spoken L2 Spanish",
+    "section": "",
+    "text": "posted  October 1, 2024"
+  },
+  {
+    "objectID": "projects/2025-01-10-self-repairs/index.html#research-questions",
+    "href": "projects/2025-01-10-self-repairs/index.html#research-questions",
+    "title": "Self-repairs in spoken L2 Spanish",
+    "section": "Research questions",
+    "text": "Research questions\n\nWhat types of self-repair strategies occur, and with what frequency, during meaning-focused activities in L2 Spanish?\nTo what extent does proficiency affect self-repair occurrences during meaning-focused activities in L2 Spanish?"
+  },
+  {
+    "objectID": "projects/2025-01-10-self-repairs/index.html#data-and-methods",
+    "href": "projects/2025-01-10-self-repairs/index.html#data-and-methods",
+    "title": "Self-repairs in spoken L2 Spanish",
+    "section": "Data and methods",
+    "text": "Data and methods\nI analyzed 75 guided interviews from the Spanish Learner Language Oral Corpora 2 [SPLLOC2; Mitchell et al. (2008)], totaling over 62,000 words. The participants included L1-English learners at three proficiency levels (low-intermediate, intermediate, and advanced) plus a group of native Spanish speakers for comparison.\nUsing Python scripts, I extracted and categorized over 5,000 self-repair instances into three types based on the CHAT taxonomy (MacWhinney, 2000):\n\nRepetitions: when speakers repeat a word or phrase (e.g., “durante, durante mucho tiempo” – “during, during a long time”)\nRevisions: when speakers replace what they said with something different (e.g., “hizo, escribió” – “he made, he wrote”)\nSelf-interruptions: when speakers cut themselves off, often to ask for help or reformulate\n\nI then used a Bayesian mixed-effects Poisson regression (Bürkner, 2017) to model how proficiency level affects repair frequency – a model that took nearly five days to run!"
+  },
+  {
+    "objectID": "projects/2025-01-10-self-repairs/index.html#key-findings",
+    "href": "projects/2025-01-10-self-repairs/index.html#key-findings",
+    "title": "Self-repairs in spoken L2 Spanish",
+    "section": "Key findings",
+    "text": "Key findings\n\nRepetitions dominate: About 60% of all repairs were repetitions, followed by revisions (31%) and self-interruptions (9%).\nMore proficiency = more repairs: This might seem counterintuitive, but advanced learners produced the most repairs. Low-intermediate learners produced the fewest. This suggests that as learners develop, they become better at monitoring their speech, not just more fluent.\nWhat gets repaired changes with proficiency: Beginners focused on fixing content words (nouns, verbs) – the basic vocabulary. Advanced learners increasingly repaired function words (pronouns, prepositions) – the grammatical glue that holds sentences together. This shift mirrors how language knowledge develops from isolated words to complex grammatical relationships.\nNative speakers repair differently: L1 speakers made fewer repairs overall and showed no strong preference for repairing particular word types. Their repairs seemed more about fine-tuning the message rather than fixing grammatical errors.\n\nThe takeaway? Self-repairs aren’t signs of failure – they’re signs of learning. When a student catches their own mistake, that’s their language system working exactly as it should.\n\n\n\nPosterior distributions from the Bayesian mixed-effects model, showing how repair frequencies vary by proficiency level."
+  },
+  {
+    "objectID": "projects/2025-01-10-self-repairs/index.html#what-i-learned",
+    "href": "projects/2025-01-10-self-repairs/index.html#what-i-learned",
+    "title": "Self-repairs in spoken L2 Spanish",
+    "section": "What I learned",
+    "text": "What I learned\nProfessionally, this project was my deep dive into Bayesian statistics. Coming from a frequentist background where you either have a “significant” result or you don’t, learning to think in terms of probability distributions and credible intervals was genuinely mind-expanding. I also learned the hard way that Bayesian models can take days to converge – my laptop ran for nearly five days straight on that regression. Beyond the stats, I developed serious Python skills for natural language processing: tokenizing, POS-tagging, and building concordance lists from scratch.\nOn a personal level, this project taught me to embrace uncertainty – both statistical and existential. There were weeks when I wasn’t sure my model would ever converge, weeks when I questioned whether I was asking the right questions at all. But I learned that sitting with ambiguity is part of the research process. Not every finding is a clean, tidy story, and that’s okay. The wide confidence bands around my L1 speaker estimates reminded me that even in research, we don’t always get the certainty we crave. What matters is being honest about what we know and what we don’t."
+  },
+  {
+    "objectID": "projects/2025-01-10-self-repairs/index.html#whats-next-my-dissertation",
+    "href": "projects/2025-01-10-self-repairs/index.html#whats-next-my-dissertation",
+    "title": "Self-repairs in spoken L2 Spanish",
+    "section": "What’s next: My dissertation",
+    "text": "What’s next: My dissertation\nThis project planted the seed for my dissertation, which expands on these findings in two major ways. First, I’m working with a much larger dataset – more participants, more speech samples, and more statistical power to detect subtle effects. Second, and more excitingly, I’m analyzing conversations from TalkAbroad, a platform where language learners have real video conversations with native speakers around the world. Unlike the structured interview tasks in SPLLOC2, TalkAbroad conversations are genuinely communicative – learners are talking to real people about real topics, with all the unpredictability that entails. This shift from semi-controlled elicitation to authentic interaction should give us a richer picture of how self-repair operates when the stakes feel real and the conversation is unscripted."
   }
 ]

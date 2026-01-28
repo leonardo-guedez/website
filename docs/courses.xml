@@ -9,8 +9,8 @@
 <link>https://www.leonardo-guedez.com/courses.html</link>
 <atom:link href="https://www.leonardo-guedez.com/courses.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.40</generator>
-<lastBuildDate>Sun, 26 Jan 2025 05:51:13 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Wed, 28 Jan 2026 06:01:16 GMT</lastBuildDate>
 <item>
   <title>EDS 240 - Data Visualization &amp; Communication</title>
   <link>https://www.leonardo-guedez.com/courses/eds-240-data-viz/</link>
@@ -58,7 +58,7 @@
   <category>R</category>
   <category>ggplot</category>
   <guid>https://www.leonardo-guedez.com/courses/eds-240-data-viz/</guid>
-  <pubDate>Sun, 26 Jan 2025 05:51:13 GMT</pubDate>
+  <pubDate>Wed, 28 Jan 2026 06:01:16 GMT</pubDate>
   <media:content url="https://www.leonardo-guedez.com/courses/eds-240-data-viz/horst-eco-r4ds.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>

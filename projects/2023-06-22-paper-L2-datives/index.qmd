@@ -36,15 +36,6 @@ What I did in my own paper was to explore whether speakers of other languages sh
 
 I extracted 1,492 instances of the dative construction from the *International Corpus of Learner English* (ICLE) and its native-speaker counterpart, *LOCNESS*. The analysis focused on ten dative verbs (*ask*, *give*, *show*, *tell*, *lend*, *send*, *bring*, *pass*, *sell*, and *write*) and annotated each instance for factors such as recipient/patient animacy, pronominality, accessibility (given vs. new information), length, and semantics. A mixed-effects logistic regression was used to model the choice between the ditransitive and prepositional dative variants.
 
-## Key findings
-
-- **Overall preference**: About 7 out of 10 sentences used the "give Mary the book" structure rather than "give the book to Mary" -- and this was true for both native speakers and learners.
-- **Your first language matters**: Chinese speakers preferred "give the book to Mary" much more than other groups, while German speakers went with "give Mary the book" even more often than native English speakers did. This suggests that how your native language handles these structures influences the choices you make in English.
-- **Length is a helpful cue**: When one part of the sentence was clearly longer than the other, learners made more native-like choices. But when both parts were similar in length, learners struggled -- they couldn't rely on this intuitive "put the short thing first" strategy.
-- **Different struggles for different groups**: When length cues weren't helpful, Chinese and German speakers made opposite kinds of mistakes -- Chinese speakers avoided the "give Mary the book" structure while German speakers overused it. Spanish speakers landed somewhere in the middle.
-
-The takeaway? Learners from different language backgrounds pick up on different cues when deciding how to phrase things in English. This matters for teaching -- what works for one group of learners might not work for another.
-
 <br>
 
 <img class="img-styling" src="__analysis-01.png" alt="R" width="70%">
@@ -54,6 +45,15 @@ Doing the analysis with R inside Emacs, using the package *Emacs Speaks Statisti
 :::
 
 <br>
+
+## Key findings
+
+- **Overall preference**: About 7 out of 10 sentences used the "give Mary the book" structure rather than "give the book to Mary" -- and this was true for both native speakers and learners.
+- **Your first language matters**: Chinese speakers preferred "give the book to Mary" much more than other groups, while German speakers went with "give Mary the book" even more often than native English speakers did. This suggests that how your native language handles these structures influences the choices you make in English.
+- **Length is a helpful cue**: When one part of the sentence was clearly longer than the other, learners made more native-like choices. But when both parts were similar in length, learners struggled -- they couldn't rely on this intuitive "put the short thing first" strategy.
+- **Different struggles for different groups**: When length cues weren't helpful, Chinese and German speakers made opposite kinds of mistakes -- Chinese speakers avoided the "give Mary the book" structure while German speakers overused it. Spanish speakers landed somewhere in the middle.
+
+The key takeaway is that learners from different language backgrounds pick up on different cues when deciding how to phrase things in English. This matters for teaching -- what works for one group of learners might not necessarily work so well for another.
 
 ## What I learned
 

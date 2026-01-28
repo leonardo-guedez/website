@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 2em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -174,8 +194,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="project-overview" class="level1">
 <h1>Project overview</h1>
 <p>This is the second paper from my Ph.D.&nbsp;comprehensive examination. While my first paper examined how learners <em>write</em> in a second language, this one focuses on how they <em>speak</em> – specifically, how they catch and fix their own mistakes in real time.</p>
-<p>When we talk, we constantly monitor what we’re saying and make corrections on the fly. You might start a sentence, realize you used the wrong word, and fix it mid-stream. These moments – called <strong>self-repairs</strong> – aren’t just stumbles or disfluencies. They’re actually windows into how our brains process language. When a learner catches and corrects an error, it shows they’re actively monitoring their speech and testing hypotheses about how the language works.</p>
-<p>I was drawn to this topic because most research on speaking fluency focuses on things like speech rate and pauses, while self-repairs get comparatively little attention. And within the limited research that exists, most studies focus on learners of English. I wanted to know: what happens when we look at learners of <em>Spanish</em>? Do the same patterns hold?</p>
+<p>When we talk, we constantly monitor what we’re saying and make corrections on the fly. You might start a sentence, realize you used the wrong word, and fix it mid-stream. These moments – called <strong>self-repairs</strong> – aren’t just stumbles or disfluencies. They’re actually windows into how our brains process language <span class="citation" data-cites="kormos2006speech">(<a href="#ref-kormos2006speech" role="doc-biblioref">Kormos, 2006</a>)</span>. When a learner catches and corrects an error, it shows they’re actively monitoring their speech and testing hypotheses about how the language works.</p>
+<p>I was drawn to this topic because most research on speaking fluency focuses on things like speech rate and pauses, while self-repairs get comparatively little attention <span class="citation" data-cites="tavakoli2020second">(<a href="#ref-tavakoli2020second" role="doc-biblioref">Tavakoli &amp; Wright, 2020</a>)</span>. And within the limited research that exists, most studies focus on learners of English. I wanted to know: what happens when we look at learners of <em>Spanish</em>? Do the same patterns hold?</p>
 <section id="research-questions" class="level2">
 <h2 class="anchored" data-anchor-id="research-questions">Research questions</h2>
 <ol type="1">
@@ -185,14 +205,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-and-methods" class="level2">
 <h2 class="anchored" data-anchor-id="data-and-methods">Data and methods</h2>
-<p>I analyzed 75 guided interviews from the <em>Spanish Learner Language Oral Corpora 2</em> (SPLLOC2), totaling over 62,000 words. The participants included L1-English learners at three proficiency levels (low-intermediate, intermediate, and advanced) plus a group of native Spanish speakers for comparison.</p>
-<p>Using Python scripts, I extracted and categorized over 5,000 self-repair instances into three types:</p>
+<p>I analyzed 75 guided interviews from the <em>Spanish Learner Language Oral Corpora 2</em> [SPLLOC2; <span class="citation" data-cites="mitchell2008splloc">Mitchell et al. (<a href="#ref-mitchell2008splloc" role="doc-biblioref">2008</a>)</span>], totaling over 62,000 words. The participants included L1-English learners at three proficiency levels (low-intermediate, intermediate, and advanced) plus a group of native Spanish speakers for comparison.</p>
+<p>Using Python scripts, I extracted and categorized over 5,000 self-repair instances into three types based on the CHAT taxonomy <span class="citation" data-cites="macwhinney2000childes">(<a href="#ref-macwhinney2000childes" role="doc-biblioref">MacWhinney, 2000</a>)</span>:</p>
 <ul>
 <li><strong>Repetitions</strong>: when speakers repeat a word or phrase (e.g., “durante, durante mucho tiempo” – “during, during a long time”)</li>
 <li><strong>Revisions</strong>: when speakers replace what they said with something different (e.g., “hizo, escribió” – “he made, he wrote”)</li>
 <li><strong>Self-interruptions</strong>: when speakers cut themselves off, often to ask for help or reformulate</li>
 </ul>
-<p>I then used a Bayesian mixed-effects Poisson regression to model how proficiency level affects repair frequency – a model that took nearly five days to run!</p>
+<p>I then used a Bayesian mixed-effects Poisson regression <span class="citation" data-cites="burkner2017brms">(<a href="#ref-burkner2017brms" role="doc-biblioref">Bürkner, 2017</a>)</span> to model how proficiency level affects repair frequency – a model that took nearly five days to run!</p>
 </section>
 <section id="key-findings" class="level2">
 <h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
@@ -214,12 +234,33 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
 <p>Professionally, this project was my deep dive into Bayesian statistics. Coming from a frequentist background where you either have a “significant” result or you don’t, learning to think in terms of probability distributions and credible intervals was genuinely mind-expanding. I also learned the hard way that Bayesian models can take <em>days</em> to converge – my laptop ran for nearly five days straight on that regression. Beyond the stats, I developed serious Python skills for natural language processing: tokenizing, POS-tagging, and building concordance lists from scratch.</p>
 <p>On a personal level, this project taught me to embrace uncertainty – both statistical and existential. There were weeks when I wasn’t sure my model would ever converge, weeks when I questioned whether I was asking the right questions at all. But I learned that sitting with ambiguity is part of the research process. Not every finding is a clean, tidy story, and that’s okay. The wide confidence bands around my L1 speaker estimates reminded me that even in research, we don’t always get the certainty we crave. What matters is being honest about what we know and what we don’t.</p>
+</section>
+<section id="whats-next-my-dissertation" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next-my-dissertation">What’s next: My dissertation</h2>
+<p>This project planted the seed for my dissertation, which expands on these findings in two major ways. First, I’m working with a much larger dataset – more participants, more speech samples, and more statistical power to detect subtle effects. Second, and more excitingly, I’m analyzing conversations from <a href="https://talkabroad.com/">TalkAbroad</a>, a platform where language learners have real video conversations with native speakers around the world. Unlike the structured interview tasks in SPLLOC2, TalkAbroad conversations are genuinely communicative – learners are talking to real people about real topics, with all the unpredictability that entails. This shift from semi-controlled elicitation to authentic interaction should give us a richer picture of how self-repair operates when the stakes feel real and the conversation is unscripted.</p>
+
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="2" role="list">
+<div id="ref-burkner2017brms" class="csl-entry" role="listitem">
+Bürkner, P.-C. (2017). Brms: An <span>R</span> package for <span>Bayesian</span> multilevel models using <span>Stan</span>. <em>Journal of Statistical Software</em>, <em>80</em>(1), 1–28.
+</div>
+<div id="ref-kormos2006speech" class="csl-entry" role="listitem">
+Kormos, J. (2006). <em>Speech production and second language acquisition</em>. Lawrence Erlbaum Associates.
+</div>
+<div id="ref-macwhinney2000childes" class="csl-entry" role="listitem">
+MacWhinney, B. (2000). <em>The <span>CHILDES</span> project: Tools for analyzing talk</em>. Lawrence Erlbaum Associates.
+</div>
+<div id="ref-mitchell2008splloc" class="csl-entry" role="listitem">
+Mitchell, R., Domı́nguez, L., Arche, M. J., Myles, F., &amp; Marsden, E. (2008). <span>SPLLOC</span>: A new database for <span>Spanish</span> second language acquisition research. <em>EuroSLA Yearbook</em>, <em>8</em>(1), 287–304.
+</div>
+<div id="ref-tavakoli2020second" class="csl-entry" role="listitem">
+Tavakoli, P., &amp; Wright, C. (2020). <em>Second language speech fluency: From research to practice</em>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

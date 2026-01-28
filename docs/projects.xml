@@ -10,10 +10,10 @@
 <atom:link href="https://www.leonardo-guedez.com/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 28 Jan 2026 23:30:11 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Jan 2026 23:33:31 GMT</lastBuildDate>
 <item>
   <title>The dative alternation in L2 English</title>
-  <link>https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/</link>
+  <link>https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/</link>
   <description><![CDATA[ 
 
 
@@ -39,7 +39,7 @@
 <h2 class="anchored" data-anchor-id="data-and-methods">Data and methods</h2>
 <p>I extracted 1,492 instances of the dative construction from the <em>International Corpus of Learner English</em> (ICLE) and its native-speaker counterpart, <em>LOCNESS</em>. The analysis focused on ten dative verbs (<em>ask</em>, <em>give</em>, <em>show</em>, <em>tell</em>, <em>lend</em>, <em>send</em>, <em>bring</em>, <em>pass</em>, <em>sell</em>, and <em>write</em>) and annotated each instance for factors such as recipient/patient animacy, pronominality, accessibility (given vs.&nbsp;new information), length, and semantics. A mixed-effects logistic regression was used to model the choice between the ditransitive and prepositional dative variants.</p>
 <p><br></p>
-<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/__analysis-01.png" alt="R" width="70%"></p>
+<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/__analysis-01.png" alt="R" width="70%"></p>
 <div class="gray center-text">
 <p>Doing the analysis with R inside Emacs, using the package <em>Emacs Speaks Statistics (ESS)</em>.</p>
 </div>
@@ -82,9 +82,9 @@ Winter, B. (2020). <em>Statistics for linguists: An introduction using <span>R</
   <category>corpus linguistics</category>
   <category>second language acquisition</category>
   <category>usage-based linguistics</category>
-  <guid>https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/</guid>
-  <pubDate>Wed, 28 Jan 2026 23:30:11 GMT</pubDate>
-  <media:content url="https://www.leonardo-guedez.com/projects/2023-06-22-paper-L2-datives/__analysis-01.png" medium="image" type="image/png" height="90" width="144"/>
+  <guid>https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/</guid>
+  <pubDate>Wed, 28 Jan 2026 23:33:31 GMT</pubDate>
+  <media:content url="https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/__analysis-01.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>
 </rss>

@@ -25,6 +25,11 @@ about:
       target: _blank
 ---
 
+<!-- #TODO Add a LinkedIn and email button at https://www.leonardo-guedez.com/about.html. -->
+<!-- #TODO Have those three buttons in the "get in touch!" popup, too. -->
+<!-- #TODO Populate projects with QRP2, dissertation work, and the L1 corpus work with Cristina. -->
+<!-- #TODO Update bio to include Eloy, Bowie, and the babies ❤️. -->
+
 <!-- ::: {.small-text} -->
 I am an applied computational linguist and Ph.D. student at Michigan State University. I focus on analyzing linguistic phenomena in the context of second language teaching and learning. 
 My work involves using techniques from natural language processing and multivariate statistical modeling to better understand the cognitive and linguistic mechanisms in language production.

@@ -25,9 +25,25 @@ Part of my Ph.D. comprehensive examination consists of writing two full, single-
 
 Consider this -- if we compare (i) *Who sent [the box]{.smallcaps} [to Germany]{.underline}?* with (ii) *Who sent [Germany]{.underline} [the box]{.smallcaps}?*, speakers will likely find (ii) somewhat odd; this is because the **animacy** of the recipient ([Germany]{.underline} -- an **inanimate** noun) is one important factor that influences the choice between one phrasing vs. the other [@winter2020statistics]. In contrast, when there is an **animate** recipient, the (ii) structure/type seems to work just fine, e.g., *Who sent [Sarah]{.underline} [the box]{.smallcaps}?* Other factors governing the dative alternation are the length of the constituents, the type of noun phrase (e.g., pronominal vs. non-pronominal), whether the recipient/patient was mentioned in previous discourse or not, among other factors. @bresnan2007predicting showed that linguistic predictors must be examined using multilevel modeling, because such factors are nested and co-dependent, acting simultaneously upon the outcome variable.
 
-What I did in my own paper was to explore whether speakers of other languages show similar usage patters of the dative alternations compared to English speakers. @callies2008argument
+What I did in my own paper was to explore whether speakers of other languages show similar usage patterns of the dative alternation compared to English speakers. Building on the work of @callies2008argument and @gries2015efl, I investigated how advanced EFL learners from three typologically different L1 backgrounds -- Chinese, German, and Spanish -- differ in their use of the English dative alternation.
 
-@gries2015efl
+## Research questions
+
+1. To what extent are the dative-alternation choices of Spanish, German, and Chinese learners of English different from those of native speakers?
+2. How differently do these learner groups rely on the linguistic and contextual factors that influence the choice of the dative construction in English?
+
+## Data and methods
+
+I extracted 1,492 instances of the dative construction from the *International Corpus of Learner English* (ICLE) and its native-speaker counterpart, *LOCNESS*. The analysis focused on ten dative verbs (*ask*, *give*, *show*, *tell*, *lend*, *send*, *bring*, *pass*, *sell*, and *write*) and annotated each instance for factors such as recipient/patient animacy, pronominality, accessibility (given vs. new information), length, and semantics. A mixed-effects logistic regression was used to model the choice between the ditransitive and prepositional dative variants.
+
+## Key findings
+
+- **Overall preference**: 71% of all dative constructions were realized as ditransitives, consistent across all groups including native speakers.
+- **Cross-linguistic differences**: Chinese speakers used significantly more prepositional datives than other groups, while German speakers showed an even stronger preference for ditransitives than native speakers.
+- **Length effects**: All learner groups struggled with making native-like choices when the length difference between recipient and patient was close to zero. When clear length cues were present (e.g., a much longer recipient), learners made more target-like choices.
+- **Interaction effects**: Chinese and German speakers showed opposite behaviors when length differences were minimal -- Chinese speakers underused ditransitives while German speakers overused them. Spanish speakers fell somewhere in between.
+
+These findings support the notion that learners from different L1 backgrounds are differentially sensitive to the discourse and information-structural cues that govern the dative alternation in English, which has implications for L2 instruction and materials development.
 
 <br>
 

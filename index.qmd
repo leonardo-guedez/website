@@ -25,8 +25,6 @@ about:
       target: _blank
 ---
 
-<!-- #TODO Add a LinkedIn (https://www.linkedin.com/in/eleguedez/) and email (eleguedez@protonmail.com) button at https://www.leonardo-guedez.com/about.html. -->
-<!-- #TODO Have those three buttons in the "get in touch!" popup, too. -->
 <!-- #TODO Populate projects with QRP2, dissertation work, and the L1 corpus work with Cristina. -->
 <!-- #TODO Update bio to include Eloy, Bowie, and the babies ❤️. -->
 

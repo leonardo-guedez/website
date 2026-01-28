@@ -28,12 +28,15 @@ website:
         menu:
           - icon: linkedin
             text: LinkedIn
-            href: https://linkedin.com/in/lguedez
+            href: https://linkedin.com/in/eleguedez
             target: _blank
           # - icon: 𝕏 Twitter
             # text: 𝕏 Twitter
             # href: https://twitter.com/eleguedez
             # target: _blank
+          - text: Bluesky
+            href: https://bsky.app/profile/eleguedez.bsky.social
+            target: _blank
           - icon: envelope
             text: email
             href: mailto:eleguedez@protonmail.com

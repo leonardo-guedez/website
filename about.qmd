@@ -2,6 +2,20 @@
 title: "about"
 subtitle: "My work life and my real life"
 title-block-banner: true
+about:
+  template: solana
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/eleguedez
+      target: _blank
+    - text: Bluesky
+      href: https://bsky.app/profile/eleguedez.bsky.social
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:eleguedez@protonmail.com
+      target: _blank
 ---
 
 ## 📃 My work life 

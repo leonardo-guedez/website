@@ -10,7 +10,7 @@
 <atom:link href="https://www.leonardo-guedez.com/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 28 Jan 2026 23:33:31 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Jan 2026 23:41:59 GMT</lastBuildDate>
 <item>
   <title>The dative alternation in L2 English</title>
   <link>https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/</link>
@@ -83,8 +83,74 @@ Winter, B. (2020). <em>Statistics for linguists: An introduction using <span>R</
   <category>second language acquisition</category>
   <category>usage-based linguistics</category>
   <guid>https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/</guid>
-  <pubDate>Wed, 28 Jan 2026 23:33:31 GMT</pubDate>
+  <pubDate>Wed, 28 Jan 2026 23:41:59 GMT</pubDate>
   <media:content url="https://www.leonardo-guedez.com/projects/2024-09-15-paper-L2-datives/__analysis-01.png" medium="image" type="image/png" height="90" width="144"/>
+</item>
+<item>
+  <title>Self-repairs in spoken L2 Spanish</title>
+  <link>https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><span class="smallcaps">posted</span> <br> October 1, 2024</p>
+<section id="project-overview" class="level1">
+<h1>Project overview</h1>
+<p>This is the second paper from my Ph.D.&nbsp;comprehensive examination. While my first paper examined how learners <em>write</em> in a second language, this one focuses on how they <em>speak</em> – specifically, how they catch and fix their own mistakes in real time.</p>
+<p>When we talk, we constantly monitor what we’re saying and make corrections on the fly. You might start a sentence, realize you used the wrong word, and fix it mid-stream. These moments – called <strong>self-repairs</strong> – aren’t just stumbles or disfluencies. They’re actually windows into how our brains process language. When a learner catches and corrects an error, it shows they’re actively monitoring their speech and testing hypotheses about how the language works.</p>
+<p>I was drawn to this topic because most research on speaking fluency focuses on things like speech rate and pauses, while self-repairs get comparatively little attention. And within the limited research that exists, most studies focus on learners of English. I wanted to know: what happens when we look at learners of <em>Spanish</em>? Do the same patterns hold?</p>
+<section id="research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="research-questions">Research questions</h2>
+<ol type="1">
+<li>What types of self-repair strategies occur, and with what frequency, during meaning-focused activities in L2 Spanish?</li>
+<li>To what extent does proficiency affect self-repair occurrences during meaning-focused activities in L2 Spanish?</li>
+</ol>
+</section>
+<section id="data-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methods">Data and methods</h2>
+<p>I analyzed 75 guided interviews from the <em>Spanish Learner Language Oral Corpora 2</em> (SPLLOC2), totaling over 62,000 words. The participants included L1-English learners at three proficiency levels (low-intermediate, intermediate, and advanced) plus a group of native Spanish speakers for comparison.</p>
+<p>Using Python scripts, I extracted and categorized over 5,000 self-repair instances into three types:</p>
+<ul>
+<li><strong>Repetitions</strong>: when speakers repeat a word or phrase (e.g., “durante, durante mucho tiempo” – “during, during a long time”)</li>
+<li><strong>Revisions</strong>: when speakers replace what they said with something different (e.g., “hizo, escribió” – “he made, he wrote”)</li>
+<li><strong>Self-interruptions</strong>: when speakers cut themselves off, often to ask for help or reformulate</li>
+</ul>
+<p>I then used a Bayesian mixed-effects Poisson regression to model how proficiency level affects repair frequency – a model that took nearly five days to run!</p>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Repetitions dominate</strong>: About 60% of all repairs were repetitions, followed by revisions (31%) and self-interruptions (9%).</li>
+<li><strong>More proficiency = more repairs</strong>: This might seem counterintuitive, but advanced learners produced the most repairs. Low-intermediate learners produced the fewest. This suggests that as learners develop, they become <em>better</em> at monitoring their speech, not just more fluent.</li>
+<li><strong>What gets repaired changes with proficiency</strong>: Beginners focused on fixing content words (nouns, verbs) – the basic vocabulary. Advanced learners increasingly repaired function words (pronouns, prepositions) – the grammatical glue that holds sentences together. This shift mirrors how language knowledge develops from isolated words to complex grammatical relationships.</li>
+<li><strong>Native speakers repair differently</strong>: L1 speakers made fewer repairs overall and showed no strong preference for repairing particular word types. Their repairs seemed more about fine-tuning the message rather than fixing grammatical errors.</li>
+</ul>
+<p>The takeaway? Self-repairs aren’t signs of failure – they’re signs of learning. When a student catches their own mistake, that’s their language system working exactly as it should.</p>
+<p><br></p>
+<p><img class="img-styling" src="https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/bayesian-posterior.png" alt="Bayesian posterior distributions" width="90%"></p>
+<div class="gray center-text">
+<p>Posterior distributions from the Bayesian mixed-effects model, showing how repair frequencies vary by proficiency level.</p>
+</div>
+<p><br></p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
+<p>Professionally, this project was my deep dive into Bayesian statistics. Coming from a frequentist background where you either have a “significant” result or you don’t, learning to think in terms of probability distributions and credible intervals was genuinely mind-expanding. I also learned the hard way that Bayesian models can take <em>days</em> to converge – my laptop ran for nearly five days straight on that regression. Beyond the stats, I developed serious Python skills for natural language processing: tokenizing, POS-tagging, and building concordance lists from scratch.</p>
+<p>On a personal level, this project taught me to embrace uncertainty – both statistical and existential. There were weeks when I wasn’t sure my model would ever converge, weeks when I questioned whether I was asking the right questions at all. But I learned that sitting with ambiguity is part of the research process. Not every finding is a clean, tidy story, and that’s okay. The wide confidence bands around my L1 speaker estimates reminded me that even in research, we don’t always get the certainty we crave. What matters is being honest about what we know and what we don’t.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>corpus linguistics</category>
+  <category>second language acquisition</category>
+  <category>Bayesian statistics</category>
+  <guid>https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/</guid>
+  <pubDate>Wed, 28 Jan 2026 23:41:59 GMT</pubDate>
+  <media:content url="https://www.leonardo-guedez.com/projects/2024-10-01-paper-L2-repairs/bayesian-posterior.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 </channel>
 </rss>
